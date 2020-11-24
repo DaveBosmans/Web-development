@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Headers</title>
+    </head>
+    <body>
+        <img src="/HTML/8.Image, audio & video/img_audio_video.html" alt="">
+        <h1>1. Bij het inladen van een bestand is het noodzakelijk om de locatie
+            van het
+            bestand aan te geven. Dit kan op 2 manieren:
+            ● Absolute path
+            ● Relative path
+            Wat houden deze 2 paths in?
+        </h1>
+        <p>Absolute path: Een absolute path bevat altijd de root-elementen en de
+            volledige lijst met mappen om het specifieke bestand of de
+            specifieke map te lokaliseren. Alle informatie die nodig is om het
+            bestand of de map te vinden, is beschikbaar in het absolute pad.
+            Absolute path kunnen overal worden gebruikt en zijn nodig bij het
+            linken naar een extern bestand / map op een andere website.
+            Bijvoorbeeld: "C:\Windows\System32\drivers\".
+        </p>
+        <p>Relative path: Een relatief pad gaat uit van de huidige
+            locatie waarin een programma, script of de gebruiker zich bevindt.
+            Met een relatief pad kan daarom naar een bestand in dezelfde of een
+            hoger of dieper gelegen map verwezen worden zonder het volledige
+            absolute pad te hoeven herhalen. Bijvoorbeeld:
+            wat-is-verschil-tussen-absoluut-relatief vs absoluut:
+            /help/vragen/wat-is-verschil-tussen-absoluut-relatief</p>
+
+        <h1>Een image element is voor het inladen van een afbeelding.
+            Afbeeldingen kunnen van
+            verschillende formaat zijn. Bijvoorbeeld, een afbeelding kan een JPG
+            formaat zijn.
+            2. Zoek uit welke formaat afbeeldingen er nog meer kan zijn.</h1>
+        <p>1. GIF "Graphics Interchange Format". <br>
+            2.JPG / JPEG "Joint Photographic Experts Group". <br>
+            3. PNG "Portable Network Graphics".
+        </p>
+
+        <h1>3. Zoek uit welke browsers er zijn en maak een lijst van je
+            antwoord.</h1>
+        <ul>
+            <li>Chrome</li>
+            <li>Firefox</li>
+            <li>Microsoft Edge</li>
+            <li>Opera</li>
+            <li>Pale Moon</li>
+            <li>Safari</li>
+            <li>SeaMonkey</li>
+            <li>Vivaldi</li>
+            <li>Yandex</li>
+        </ul>
+
+        <h1>4. Onderzoek hoe het plaatsen van een foto gedaan wordt en plaats
+            deze boven
+            en onderaan je website door zowel gebruik te maken van de absolute
+            path en
+            relative path. "Zie Afbeeldingen boven en onder de pagina"</h1>
+        <img src="./TG_Logo.d5934b2d.png" alt="">
+
+        <h1>5. Wat houdt de alt attribute in? En waarom is het handig om de alt
+            attribuut te
+            gebruiken?</h1>
+        <p>een alt attribute is de tekst die getoond wordt als de afbeelding
+            niet kan laden, zo weten de mensen op de website alsnog welke waar
+            de afbeelding over zou gaan. Het is ook handig voor SEO.</p>
+
+        <h1>6. Laadt dit bestand in als een audio op het scherm.
+            Extra: Maak het leuker door de audio op repeat te zetten.
+            Tip: gebruik controls attribute om audio af te spelen.
+        </h1>
+        <audio src="./Copy of explosie.mp3" controls loop></audio>
+
+        <h1>7. Speel een audio bestand af met source tag. Leg uit wat hier het
+            voordeel
+            van is.</h1>
+        <p>Meerdere bronbestanden kunnen vastgelegd worden met behulp van het
+            source element om verschillende formaten in verschillende browsers
+            te ondersteunen voor geluid of beeld.</p>
+        <audio controls loop>
+            <source src="./Copy of explosie.mp3" type="audio/mpeg" repeat>
+            Your Browser does not support the audio element.
+        </audio>
+
+        <h1>8. Zoek een willekeurig video en sla dit op in je computer. Laadt
+            dit bestand in
+            als een video op het scherm. Speel een video bestand af met source
+            tag. Leg uit wat hier het voordeel van is.
+        </h1>
+        <p>Met het source element kun je alternatieve videobestanden
+            specificeren waaruit de browser kan kiezen. De browser gebruikt het
+            eerste herkende formaat.</p>
+        <video width="auto" height="500px" controls>
+            <source src="./video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </body>
+</html>
