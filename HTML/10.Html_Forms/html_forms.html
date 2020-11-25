@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html Forms</title>
+    </head>
+    <body>
+        <h1>1. Maak een HTML form waarbij de gebruiker zijn naam en achternaam
+            in kan vullen. Zie hieronder voor een voorbeeld:</h1>
+
+        <form action="">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="name" value="Voornaam">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" name="name"
+                value="Achternaam">
+        </form>
+
+        <h1>2. Naast input text fields zijn er ook nog andere input fields.
+            Zoals:
+            ● radiobutton
+            ● checkbox
+            ● password
+            ● reset
+            ● submit
+            ● date
+            ● search
+            ● time
+            ● hidden
+            ● email.
+            Maak voor elk input field een voorbeeld.</h1>
+
+        <form action="">
+            <label for="vrouw">Vrouw</label>
+            <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+            <label for="man">Man</label>
+            <input type="radio" id="man" name="geslacht" value="Man"> <br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Ik heb een fiets</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ik heb een auto</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Ik heb een boot</label><br>
+
+            <label for="passowrd">Password</label>
+            <input type="password" id="password" name="password"
+                value="Password">
+            <br>
+            <label for="vrouw">Reset</label>
+            <input type="reset" id="vrouw" name="geslacht" value="Reset"> <br>
+            <label for="submit">Submit</label>
+            <input type="submit" id="submit" name="submit" value="Submit">
+            <br>
+            <label for="date">Datum</label>
+            <input type="date" id="date" name="date" value="Datum"> <br>
+            <label for="search">Search</label>
+            <input type="search" id="search" name="search" value="search"> <br>
+            <label for="time">Tijd</label>
+            <input type="time" id="time" name="time" value="tijd"> <br>
+            <label for="hidden">Hidden</label>
+            <input type="hidden" id="hidden" name="hidden" value="Hidden"> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                value="example@hotmail.com"> <br>
+        </form>
+
+
+        <h1>3. Maak een input email field met een submit knop.
+            tip: wat gebeurt er wanneer je op de submit knop clickt met een
+            random text? </h1>
+
+        <form action="">
+            <input type="text">
+            <input type="submit" value="Submit">
+        </form>
+
+        <h1>4. Een formulier kun je ook groeperen. Zie hieronder voor een
+            voorbeeld:
+            Bouw dit voorbeeld na.</h1>
+
+        <p>Persoonsgegevens</p>
+        <form action="">
+            <label for="Achternaam">Achternaam</label>
+            <input type="text" id="Achternaam" name="Achternaam"
+                value="achternaam"> <br>
+            <label for="Voornaam">Voornaam</label>
+            <input type="text" id="Voornaam" name="Voornaam"
+                value="voornaam"> <br>
+            <label for="Geboortedatum">Geboortedatum</label>
+            <input type="date" id="Geboortedatum" name="Geboortedatum"
+                value="date">
+            <br>
+            <label for="Man">M:</label>
+            <input type="radio" id="Man" name="Geslacht"
+                value="Man">
+            <label for="Vrouw">V:</label>
+            <input type="radio" id="Vrouw" name="Geslacht"
+                value="Vrouw">
+            <br>
+            <label for="Postcode">Postcode</label>
+            <input type="text" id="Postcode" name="Postcode"
+                value="postcode"> <br>
+            <label for="Adres">Adres</label>
+            <input type="text" id="Adres" name="Adres"
+                value="adres"> <br>
+            <input type="submit" id="submit" name="submit"
+                value="Submit">
+            <input type="reset" id="reset" name="reset" value="Reset">
+        </form>
+
+
+        <h1>5. Naast input element heb je ook een select element. Hiermee kan je
+            een
+            dropdown list maken. Maak een drop down list.</h1>
+
+        <label for="chocolade-select">Kies de smaak chocolade</label> <br>
+        <select name="chocolade" id="chocolade-select">
+            <option value="">Selecteer een optie</option>
+            <option value="Melk">Melk</option>
+            <option value="Wit">Wit</option>
+            <option value="Puur">Puur</option>
+        </select>
+
+        <h1>6. We hebben nu geleerd hoe je dropdown list, radio buttons en
+            checkboxes
+            maak. Dit zijn 3 verschillende manieren om de gebruiker een keuze te
+            laten maken. Benoem voor dropdown list, radio buttons en checkboxes
+            een
+            situatie waar je in kan gebruiken en leg dat uit?
+        </h1>
+
+        <p>Dropdownlist kan je gebruiken als de gebruiker maar 1 keus kan maken
+            maar je een lange rij aan keuzes heb. <br>
+            Radio Buttons kan je gebruiken als de gebruiker weer maar 1 keus
+            heeft om te maken maar keus heeft uit 2 of 3 keuzes. <br>
+            Checkbox gebruik je als jeje gebruiker meerdere keuzes wilt laten
+            selecteren.</p>
+
+        <h1>7. Maak een reserveringsformulier om een sport te reserveren. In dit
+            formulier
+            willen we graag het volgende weten:
+            ● Naam van dat persoon
+            ● Off hij/zij lidmaatschap heeft
+            ● E-mail van dat persoon
+            23
+            ● Type sport om te reserveren. Keuze uit: tafeltennis, badminton of
+            squash
+            ● Datum en tijdstip om te reserveren
+            ● Een checkbox waarbij de gebruiker akkoord gaat over de
+            reserverings
+            voorwaardes
+            ● Een submit knop
+        </h1>
+
+        <form action="">
+            <label for="Achternaam">Achternaam</label>
+            <input type="text" id="Achternaam" name="Achternaam"
+                value="achternaam"> <br>
+            <label for="Voornaam">Voornaam</label>
+            <input type="text" id="Voornaam" name="Voornaam"
+                value="voornaam"> <br>
+            <label for="lidmaatschap">Lidmaatschap? :</label>
+            <label for="lidmaatschap-ja" id="lidmaatschap">Ja</label>
+            <input type="radio" id="lidmaatschap-ja" name="lidmaatschap"
+                value="ja">
+            <label for="lidmaatschap-nee">Nee</label>
+            <input type="radio" id="lidmaatschap-nee" name="lidmaatschap"
+                value="nee">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                value="example@hotmail.com"> <br>
+            <p> Sport:
+                <label for="Tafeltennis">Tafeltennis</label>
+                <input type="radio" id="Tafeltennis" name="sport"
+                    value="Tafeltennis">
+                <label for="Badminton">Badminton</label>
+                <input type="radio" id="Badminton" name="sport"
+                    value="Badminton">
+                <label for="Squash">Squash</label>
+                <input type="radio" id="Squash" name="sport" value="Squash">
+            </p>
+            <label for="Datumreservering">Datum reservering</label>
+            <input type="date" id="Datumreservering" name="Datumreservering"
+                value="date">
+            <label for="time">Tijd</label>
+            <input type="time" id="time" name="time" value="tijd">
+            <br>
+            <label for="voorwaarden">Akkoord Algemene Voorwaarden</label>
+            <input type="checkbox" id="voorwaarden" name="Voorwaardenakkoord"
+                value="Akkoord"> <br>
+            <input type="submit" id="submit" name="submit"
+                value="Submit">
+        </form>
+
+        <h1>8. Maak een reserverings formulier om een boek te reserveren. In dit
+            formulier
+            willen we graag het volgende weten:
+            ● Naam van dat persoon
+            ● Telefoonnummer
+            ● E-mail van dat persoon
+            ● Naam van dat boek
+            ● Aantal boeken om te reserveren. Het aantal moet minimaal 1 en
+            maximaal 5
+            zijn.
+            ● Een submit knop
+        </h1>
+
+        <form action="">
+            <table bgcolor="lightgrey">
+                <tr>
+                    <td>Voornaam:</td>
+                    <td><input type="text" name="voornaam"></td>
+                </tr>
+                <tr>
+                    <td>Telefoonnummer:</td>
+                    <td><input type="tel" name="tel"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Naam Boek:</td>
+                    <td><input type="text" name="boeknaam"></td>
+                </tr>
+
+                <tr>
+                    <td>Aantal Boeken:</td>
+                    <td><input type="number" min="1" max="5"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+
+        <h1>9. Bouw nu zelf een formulier met wat je hiervoor hebt geleerd.</h1>
+        <form action="">
+            <label for="vraag">Vraag* max 5000 karakters</label>
+            <input type="textbox" id="vraag" name="vraag" maxlength="5000"> <br>
+            <label for="telefoonnummer">Telefoonnummer</label>
+            <input type="tel" id="telefoonnummer" name="telefoonnummer"><br>
+            <label for="email">E-mailadres*</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="verklaring">Akkoordverklaring*</label>
+            <input type="checkbox" id="verklaring" name="verklaringakkoord">
+        </form>
+    </body>
+</html>
