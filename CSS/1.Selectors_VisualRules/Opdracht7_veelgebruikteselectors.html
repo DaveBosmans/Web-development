@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Veel gebruikte Selectors</title>
+    </head>
+    <body>
+        <h1>1. Element selector</h1>
+        <p>selecteren van alle elementen op de pagina</p>
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                p {
+                color: red;
+                }
+            </xmp>
+        </figure>
+
+        <h1>2. #id selector</h1>
+        <p>Selecteren van elementen met een id bijvoorbeeld hond:</p>
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                #hond {
+                background-color: blue;
+                }
+            </xmp>
+        </figure>
+
+        <h1>3. .class selector</h1>
+        <p>Selecteren van alle elementen met een class van .persoon</p>
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                .persoon {
+                margin: 2em;
+                }
+            </xmp>
+        </figure>
+
+        <h1>4. CSS [attribute] Selector</h1>
+        <p>Het selecteren van een attribute doe je met []</p>
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                a[target] {
+                background-color:yellow;
+                }
+            </xmp>
+        </figure>
+
+        <h1>5. Descendant selector</h1>
+        <p>Dit is de eerste combinatie selector</p>
+        <img src="./img/combinatie selectors.png" alt="">
+        <p>Deze familie hierboven laat je makkelijk elementen selecteren op een logische volgorde.</p>
+        <p>De Descendant Selector laat je alle elementen in een element selecteren:</p>
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                div h1 {
+                background-color: purple;
+                }
+            </xmp>
+        </figure>
+        <p>in dit voorbeeld worden alle h1 in de div geselecteerd</p>
+
+        <h1>6. Child > selector</h1>
+        <p>Als je bijvoorbeeld een ul hebt en je hebt een paar items in de ul en binnenin deze items
+            is een nieuwe ul, wil je misschien alleen de bovenste hierarchy list items willen
+            selecteren maar niet de nested list items. Dus de element van de directe ouder worden
+            geselecteerd. Voorbeeld:</p>
+        <img src="./img/child-combinator-selector.png" alt="">
+    </body>
+    <div>
+
+        <h1>7. Adjacent + en general sibling ~ selectors</h1>
+        <p>Met deze twee selectors kunt u broers en zussen van elementen met hetzelfde bovenliggende
+            element selecteren en opmaken. Dit kan bijvoorbeeld handig zijn wanneer u
+            stijlhiërarchieën voor elementen in het hele document probeert te beheren. De algemene
+            sibling-selector is vrij eenvoudig en selecteert alle elementen die broers of zussen
+            zijn van een bepaald element.</p>
+        <p>Voorbeeld: general sibling</p>
+        <p>div ~ p {
+            background-color: purple;
+            }</p>
+        <p>De aangrenzende sibling selector selecteert alle elementen die de aangrenzende siblings
+            zijn van een gespecificeerd element. Dit zijn alle elementen die onmiddellijk op het
+            opgegeven element volgen. U kunt dus bijvoorbeeld alle &lt;p&gt; -elementen selecteren
+            die
+            onmiddellijk na &lt;div&gt; -elementen worden geplaatst:</p>
+        <p>div + p {
+            background-color: purple;
+            }</p>
+        <h3>general sibling selector</h3>
+        <img src="./img/general-sibling-example.png" alt="">
+        <h3>adjecent selector</h3>
+        <img src="./img/adjacent-selector-example.png" alt="">
+
+        <p>Dus de adjacent selector selecteerd alleen de eerst volgende element na de
+            element die je
+            hebt
+            geselecteerd en de general sibling selector alle elementen na de element die je hebt
+            geselecteerd.</p>
+
+    </html>

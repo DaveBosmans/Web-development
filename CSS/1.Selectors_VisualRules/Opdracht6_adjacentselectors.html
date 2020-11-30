@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adjacentselectors</title>
+    </head>
+    <body>
+        <p>De adjacent selector tussen broers en zussen in CSS is geen selector op zichzelf,
+            maar een manier om twee selectors te combineren.</p>
+        <p>Het plusteken + is de aangrenzende combinator tussen twee alinea-tag element
+            selectors. Dit betekent "selecteer een alineatag die direct na een andere alineatag
+            staat met niets ertussenin". Hier zijn enkele voorbeelden van wat het zou selecteren:</p>
+        <img src="./img/adjacent-selector-example.png" alt="">
+        <figure>
+            <figcaption>voorbeeld</figcaption>
+            <xmp>
+                p + p {
+                margin: 0;
+                }
+
+                <div>
+                    <p>I'm a paragraph</p>
+                    <p>I get selected!</p>
+                </div>
+
+                <div>
+                    <p>I'm a paragraph</p>
+                    <h2>Monkey hair</h2>
+                    <p>I will NOT get selected</p>
+                </div>
+            </xmp>
+        </figure>
+    </body>
+</html>

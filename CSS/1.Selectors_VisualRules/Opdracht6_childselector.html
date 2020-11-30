@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Childselectors</title>
+    </head>
+    <style>
+        span {
+        background-color: white;
+        }
+
+        div > span {
+        background-color: DodgerBlue;
+        }
+    </style>
+    <body>
+        <div>
+            <span>Span #1, in de div.
+                <span>Span #2, in de span die in de div zit.</span>
+            </span>
+        </div>
+        <span>Span #3, niet in de div.</span>
+        <h3>voorbeeld met afbeelding verschil tussen general en child selector </h3>
+        <img src="./img/child-combinator-selector.png" alt="">
+    </body>
+</html>

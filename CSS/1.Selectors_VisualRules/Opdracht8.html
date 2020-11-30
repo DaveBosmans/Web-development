@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 8</title>
+    </head>
+    <style>
+        p {
+            color: blue;
+        }
+
+        p {
+            color: purple;
+        }
+    </style>
+    <body>
+        <h1>Opdracht 8
+            Styling die je toepast wordt toegepast in een bepaalde volgorde. Het kan voorkomen dat
+            je styling toepast en vervolgens niet het gewenste resultaat ziet. Cascade en
+            Inheritance zijn belangrijke concepten om te begrijpen hoe styling werkt. Lees hier in
+            de officiële documentatie meer over cascade en inheritance.
+            Zoek ook andere referenties om het concept te begrijpen.
+
+            Leg in eigen woorden uit wat met cascade en inheritance wordt bedoeld. Maak voorbeelden
+            om je antwoord uit te leggen.
+        </h1>
+
+        <h2>Cascade</h2>
+        <p>Dit betekent dat de volgorde waarin css word geschreven ertoe doen. Als bijvoorbeeld een
+            paragraaf eerst blauw word gemaakt en daarna paars dan geldt de laatst aangegeven stijl,
+            in dit geval paars. Zoals je ziet is deze tekst paars</p>
+
+        <h2> Inheritance</h2>
+        <p> In CSS bepaalt Inheritance wat er gebeurt als er geen waarde is opgegeven voor een
+            eigenschap op een element. </p>
+        <p> Voorbeeld: p {color:green}. &lt;p&gt;This paragraph has &lt;em&gt;emphasized
+            text&lt;/em&gt; in it.&lt;/p&gt;</p>
+        <p> De paragraaf zal groen worden maar de woorden die em zijn zullen de style van hun parent
+            krijg. Er zijn ook properties waar dit niet mee gebeurd zoals een border, er komt dan
+            geen extra border om de tekst in "em" heen.</p>
+        <br>
+        <h2> Je kan ook de inheritance zelf aanpassen door het volgende te gebruiken:</h2>
+        <p> Inherit:
+            Stelt de eigenschapswaarde die wordt toegepast op een geselecteerd element in op
+            dezelfde waarde als die van het bovenliggende element. In feite zet dit "overerving
+            aan". <br>
+            Initial:
+            Stelt de eigenschapswaarde die op een geselecteerd element wordt toegepast, in op de
+            beginwaarde van die eigenschap.
+            <br>
+            Unset: de eigenschap naar zijn natuurlijke waarde, wat betekent dat als de eigenschap
+            van nature wordt geërfd, deze als erven fungeert, anders als initiaal.</p>
+    </body>
+</html>
