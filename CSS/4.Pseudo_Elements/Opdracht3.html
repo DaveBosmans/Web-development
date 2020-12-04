@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht3</title>
+    </head>
+    <style>
+        .selection::selection { 
+        background-color: red;
+        color: white;
+        }
+
+        .before::before {
+            content: "Content";
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-color: red;
+        }
+
+        .after::after {
+            content: "Rood ";
+            height: 50px;
+            width: 50px;
+            background-color: red;
+        }
+
+        .first-letter p::first-letter{
+            color: blue;
+            font-size: 25px;
+        }
+
+        .first-line {
+            background-color: lightgrey;
+        }
+        
+        .first-line::first-line{
+            color: red;
+        }
+    </style>
+    <body>
+        <h1>Opdracht 3
+            Er zijn aldus 14 verschillende pseudo elementen. Je hebt ze in de voorgaande opdracht
+            reeds opgezocht en uitgezocht wat ze doen. Kun je van al deze pseudo-elementen een
+            voorbeeld maken?</h1>
+
+        <p class="selection">Dit is een pseudo element selection. Als je deze tekst selecteerd zal
+            je zien dat de achtergrondkleur rood is en de tekst wit.</p>
+
+        <p class="before">Dit is een before element, zoals je ziet staat er een rood blokje voor
+            deze
+            tekst wat de content is.</p>
+
+        <p class="after">Dit is een after element, zoals je ziet staat het rode blokje nu achter de
+            content.</p>
+
+        <div class="first-letter">
+            <p>Zoals je ziet is dit de first-letter element, met deze element
+                target je de eerste letter de paragraaf met deze class.</p>
+            <p>Zoals je ziet is dit de first-letter element, met deze element
+                target je de eerste letter de paragraaf met deze class.</p>
+            <p>Zoals je ziet is dit de first-letter element, met deze element
+                target je de eerste letter de paragraaf met deze class.</p>
+        </div>
+
+
+        <div class="first-line">
+            <p>Met first line element kun je de eerste lijn oftewel woord
+                veranderen.</p>
+            <p>dit is een tweede paragraaf in een div en deze veranderd niet.</p>
+        </div>
+    </body>
+</html>

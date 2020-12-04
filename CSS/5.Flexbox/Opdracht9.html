@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht9</title>
+    </head>
+
+    <style>
+* {
+    background-color: lightgray;
+}
+
+        .flexcontainer {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .box1, .box2, .box3, .box4 {
+            background-color: white;
+            max-width: 300px;
+            align-self: center;
+            text-align: center;
+            color: black;
+            margin: 10px;
+        }
+
+        h3 {
+            margin: 10px;
+            background-color: white;
+            color: blue;
+        }
+
+        p {
+             background-color: white;
+             padding: 0 10px;
+        }
+
+        .button {
+            display: block;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        .button:hover {
+            color: white;
+            font-size: 20px;
+            background-image: linear-gradient(to right, rgb(66, 0, 248) , rgb(0, 225, 255));;
+        }
+
+    </style>
+    <body>
+        <div class="flexcontainer">
+            <div class="box1">
+
+                <img src="./mariorun.gif" height="250px" width="100%" alt="">
+                <h3>Super Mario Run</h3>
+                <p>Een nieuw soort Super Mario-game, die je met één hand kunt spelen! Je
+                    bestuurt
+                    Mario door het scherm aan te raken terwijl hij automatisch door het level
+                    rent.</p>
+                <a href="#" class="button">Play Super Mario Run</a>
+            </div>
+
+            <div class="box2"><img src="./mariomaker.gif" height="250px" width="100%" alt="">
+                <h3>Mario Maker</h3>
+                <p>Steek de handen uit de mouwen en bouw de Super Mario-levels waar je altijd al van
+                    hebt gedroomd in Super Mario Maker 2, exclusief voor de Nintendo Switch!</p>
+                <a href="#" class="button">Play Mario Maker</a></div>
+
+            <div class="box3"><img src="./mario3.gif" height="250px" width="100%" alt="">
+                <h3>Super Mario 3</h3>
+                <p>Super Mario Bros. 3 introduceert een tal van vooruitgangen t.o.v. het orginele
+                    Super Mario Bros. Zoals de toevoeging van een wereldmap, meer vijanden en
+                    level-types.</p>
+                <a href="#" class="button">Play Super Mario 3</a></div>
+
+            <div class="box4">
+                <img src="./yoshisisland.gif" height="250px" width="100%" alt="">
+                <h3>Yoshi's Island</h3>
+                <p>Yoshi's island is een spel waar elk level weer iets nieuws biedt van vijanden tot
+                    uitdagingen. Dit houtd het spel door de hele speeltijd interessant en uitdagend.</p>
+                <a href="#" class="button">Play Yoshi's Island</a></div>
+        </div>
+    </body>
+</html>

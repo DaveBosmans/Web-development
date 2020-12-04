@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht8</title>
+    </head>
+    <style>
+        .flexcontainer {
+            display: flex;
+            width: 350px;
+            align-items: center;
+           flex-wrap: wrap;
+           align-content: center;
+        }
+
+        .box1, .box2, .box3, .box4, .box5, .box6 {
+            align-self: center;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .box1 {
+            background-color: lightgoldenrodyellow;
+        }
+        .box2 {
+            background-color: lightskyblue;
+        }
+        .box3 {
+            background-color: lightgreen;
+        }
+        .box4 {
+            background-color: white;
+        }
+        .box5 {
+            background-color: black;
+            color: white;
+        }
+        .box6 {
+            background-image: linear-gradient(to right, rgb(47, 92, 216) , rgb(215, 240, 255));
+        }
+
+    </style>
+    <body>
+        <h1>Opdracht 8
+            Zie het onderstaande voorbeeld en maak het na met flexbox.
+        </h1>
+
+        <div class="flexcontainer">
+            <div class="box1"><h1>1</h1></div>
+            <div class="box2"><h1>2</h1></div>
+            <div class="box3"><h1>3</h1></div> <br>
+            <div class="box4"><h1>4</h1></div>
+            <div class="box5"><h1>5</h1></div>
+            <div class="box6"><h1>6</h1></div>
+        </div>
+    </body>
+</html>

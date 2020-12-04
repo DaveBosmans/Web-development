@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht7</title>
+    </head>
+
+    <style>
+
+    .vierkant {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background: red;
+        transform: rotate(-15deg);
+        margin: 100px;
+    }
+
+    .vierkant::before {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: red;
+        transform: rotate(20deg);
+    }
+
+    .vierkant::after {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: red;
+        transform: rotate(45deg);
+    }
+
+
+    </style>
+    <body>
+
+        <div class="vierkant">
+        </div>
+
+    </body>
+</html>

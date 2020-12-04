@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht6</title>
+    </head>
+
+    <style>
+      
+     .bar {
+            position: relative;
+            display: inline-block;
+            height: 50px;
+            width: 180px;
+            margin: 50px;
+            border-radius: 50px;
+            background-color: black;
+     }
+
+        .circle::before {
+            content: "";
+            position: absolute;
+            top: -40px;
+            left: 25px;
+            height: 125px;
+            width: 125px;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+.dots::before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            height: 4px;
+            width: 4px;
+            border-radius: 50%;
+            background-color: white;
+}
+
+.dots::after {
+            content: "";
+            position: absolute;
+            top: 30px;
+            left: 150px;
+            height: 4px;
+            width: 4px;
+            border-radius: 50%;
+            background-color: white;
+}
+
+        p {
+            color: white;
+            position: absolute;
+            left: 85px;
+        }
+
+
+
+    </style>
+    <body>
+        <h1>Opdracht 6
+            Hieronder vind je wederom een voorbeeld van het gebruik van een pseudo-element. Kun jij
+            dit namaken?
+        </h1>
+
+        <div class="bar circle">
+            <div class="dots">
+                <p>1</p>
+            </div>
+        </div>
+
+        <div class="bar circle">
+            <div class="dots">
+                <p>2</p>
+            </div>
+        </div>
+
+        <div class="bar circle">
+            <div class="dots">
+                <p>3</p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>
