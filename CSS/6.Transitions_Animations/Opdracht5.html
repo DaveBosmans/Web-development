@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 5</title>
+    </head>
+
+    <style>
+        .container {
+            width: 350px;
+            height: 300px;
+            border: 2px solid black;
+            background: lightgray;
+        }
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-image: url(./Chickens-the-Pet-that-Poops-Breakfast.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    position: relative;
+}
+
+.box1::before {
+    content: "";
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(185, 124, 226);
+    top: 0;
+    left: 0;
+}
+
+.container:hover div:nth-child(2) {
+    transition: background-color 2s ease;
+    background-color: red;
+}
+
+.container:hover>.box1::before {
+    transition: all 1s ease-in;
+    transform: rotate(20deg);
+    left: 120px;
+    top: 60px;
+}
+
+    </style>
+    <body>
+        <h1>Opdracht 5
+            Hieronder zie je wederom een voorbeeld van een transition. Je kunt op verschillende
+            properties transitions aangeven. Zoek uit op welke properties de transitions zitten en
+            maak het na. Je eigen creativiteit gebruiken is uiteraard toegestaan.
+        </h1>
+
+        <div class="container">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+    </body>
+</html>

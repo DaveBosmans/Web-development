@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 6</title>
+    </head>
+
+    <style>
+.container {
+    display: flex;
+    background: blue;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    
+}
+
+        .card {
+            display: flex;
+            position: relative;
+            top: 0;
+            left: 0;
+            flex-direction: column;
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 250px;
+            padding: 10px;
+            justify-content: center;
+            background-color: grey;
+            color: white;
+            transition: 0.4s ease-out;
+        }
+
+        .card:hover {
+            transform: translateY(-20px);
+        }
+
+/* Select alles wat niet een first child is van card */
+        .card:not(:first-child) {
+            margin-left: -50px;
+        }
+
+        .card:hover~.card {
+            color: red;
+            transform: translateX(1rem);
+        }
+    </style>
+    <body>
+
+
+
+        <div class="container">
+            <div class="card">
+                <p>Article sep16</p>
+                <h2>Placeholder Title</h2>
+                <p>Author: Dave Bosmans</p>
+            </div>
+            <div class="card">
+                <p>Article sep16</p>
+                <h2>Placeholder Title</h2>
+                <p>Author: Dave Bosmans</p>
+            </div>
+            <div class="card">
+                <p>Article sep16</p>
+                <h2>Placeholder Title</h2>
+                <p>Author: Dave Bosmans</p>
+            </div>
+            <div class="card">
+                <p>Article sep16</p>
+                <h2>Placeholder Title</h2>
+                <p>Author: Dave Bosmans</p>
+            </div>
+        </div>
+
+
+    </body>
+</html>
