@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    background-color: rgb(151, 151, 151);
+}
+
+/* NAVBAR */
+#navbar ul {
+    display: flex;
+    background-color: rgb(151, 151, 151);
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#navbar ul li {
+    padding: 10px;
+    margin: 5px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BANNER SECTION */
+
+#banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* background: url(/CSS/8.Eindopdrachten/img/cooking.jpg), linear-gradient(rgba(0, 0, 0, 0.849),rgba(0, 0, 0, 0.747));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px; */
+    background: black;
+}
+
+#banner img {
+    opacity: 0.3;
+}
+
+#banner .textboxbanner {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 900px;
+    padding: 40px;
+}
+
+#banner .textboxbanner h1,.textboxbanner p,.textboxbanner a {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(97, 135, 216);
+}
+
+.textboxbanner h1 {
+    font-size: 40px;
+}
+
+#banner .button {
+    border: 1px solid rgb(128, 179, 128);
+    padding: 5px 40px;
+}
+
+#banner .button2 {
+    border: 1px solid rgb(128, 179, 128);
+    padding: 5px 40px;
+    color: rgb(128, 179, 128);
+
+}
+
+/* GERECHTEN */
+
+#gerechten {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#gerechten .containergerechten {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: center;
+    margin: 0px 100px;
+    align-items: center;
+  
+}
+
+.populair {
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+}
+.containergerechten img {
+    margin: 20px;
+}
+
+#gerechten .containergerechten a {
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+}
+
+.titelprice {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MENUKAART */
+
+.menukaart_titel {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+#menukaart {
+    display: flex;
+}
+
+
+#menukaart img {
+    margin-left: 50px;
+}
+
+#menukaart .containermenu {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 1200px;
+}
+
+#menukaart .box {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 179, 128);
+    align-items: center;
+    height: 200px;
+    color: rgb(97, 135, 216);
+}
+
+#footer .contact h3, .icons {
+  margin: 10px 0px;
+}
+
+#footer .icons {
+    font-size: 20px;
+}
+
+#footer .navigationfooter {
+ margin-top: -42px;   
+}
+
+#footer .navigationfooter ul, .navigationfooter a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(97, 135, 216);
+}
+
+#footer .navigationfooter h3 {
+    margin: 10px 0px;
+}
