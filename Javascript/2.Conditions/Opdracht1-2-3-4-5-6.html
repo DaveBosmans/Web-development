@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Opdracht 1-2-3-4</title>
+        <title>Opdracht 1-2-3-4-5-6</title>
     </head>
     <body>
 
@@ -37,6 +37,20 @@
             getal is kleiner dan 3”.
         </p>
 
+        <p>Opdracht 5:
+            We hebben nu verschillende comparison operators gehad. Wat is het verschil tussen ,
+            kleiner dan en equals kleiner dan.
+            <br>
+            Kleiner dan teken betekend alles wat kleiner is, kleiner dan equals betekend alles wat
+            kleiner is of gelijk aan je comparison is.
+        </p>
+
+        <p>Opdracht 6:
+            We hebben nog een comparison operator niet gehad, namelijk ! comparison. Wat doet een !
+            comparison ? Maak een voorbeeld van een ! comparison <br>
+            Een ! reversed het, dus == is true en != is false. Zie code.
+        </p>
+
 
         <input type="number" name="number" id="number">
         <button id="btn" onclick="checkNumber()">Button</button>
@@ -45,8 +59,15 @@
         </div>
 
         <script>
+ //Voorbeeld != 
+ let notTrue = false;
 
+        if (notTrue != true) {
+           notTrue = true;
+            console.log(notTrue);
+        } 
 
+        //function
         function checkNumber() {
             let number = document.getElementById("number").value;
 
@@ -63,6 +84,8 @@
                 document.getElementById("label").innerHTML = "Het ingevoerde getal is kleiner dan 3";
             }
         }
+
+       
         </script>
     </body>
 </html>

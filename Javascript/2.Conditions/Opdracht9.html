@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 9</title>
+    </head>
+    <body>
+
+        <input type="number" name="number" id="number">
+        <button id="btn" onclick="checkNumber()">Button</button>
+        <div>
+            <span id="label"></span>
+        </div>
+
+        <p>Programmeer de volgende logica in de checkNumber functie:
+            ● Als het ingevoerde getal is groter dan 5 en is kleiner dan 10, dan toon je op het
+            label:
+            “Het ingevoerde getal is tussen 5 en 10”.
+        </p>
+
+        <script>
+
+            function checkNumber() {
+                let number = document.getElementById("number").value;
+
+                if (number > 5 && number < 10) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is tussen 5 en 10"
+            }
+            else {
+                document.getElementById("label").innerHTML = " "
+            }
+        }   
+        </script>
+    </body>
+</html>
