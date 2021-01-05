@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 6</title>
+    </head>
+    <body>
+
+        <p>
+            Opdracht 6:
+            1. Herhaal opdracht 5 en geef antwoord op de volgende vragen.
+            Hoe herken je dat een waarde String is? Geef ook een voorbeeld.
+            Staat altijd tussen aanhalingstekens anders zou javascript het niet als een string zien.
+            Als je typeof gebruikt in consolelog dan kun je ook bekijken of het een string is.
+            2. Hoe herken je dat een waarde Number is? Geef ook een voorbeeld.
+            3. Hoe herken je dat een waarde BigInt is? Geef ook een voorbeeld.
+            4. Hoe herken je dat een waarde Symbol is? Geef ook een voorbeeld.
+        </p>
+
+        <script>
+            let string = "string";
+            console.log("datatype " + typeof (string));
+
+            let number = 10;
+            console.log("datatype " + typeof (number));
+
+            let bigInt = BigInt (10); // same as 10n
+            console.log("datatype " + typeof (bigInt));
+
+            let symbol =  Symbol ('hey'); 
+            console.log("datatype " + typeof (symbol));
+            
+
+        </script>
+    </body>
+</html>
