@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 1-2-3-4</title>
+    </head>
+    <body>
+
+        <p>Hierboven zie je een input field, een button en een label.
+            ● Het input field kun je een getal mee invoeren.
+            ● De button roept de checkNumber functie aan.
+            ● De label wordt gebruikt om een tekst te tonen aan de hand van een logica die jij gaat
+            programmeren.
+            Programmeer de volgende logica in de checkNumber functie.
+            ● Als het ingevoerde getal is gelijk aan 3, dan toon je op het label: “Het ingevoerde
+            getal is gelijk aan 3”.</p>
+
+        <p>
+            Opdracht 2:
+            Deze opdracht is een uitbreiding van opdracht 1.
+            Programmeer de volgende logica in de checkNumber functie:
+            ● Als het ingevoerde getal is groter dan 4, dan toon je op het label: “Het ingevoerde
+            getal is groter dan 4”
+        </p>
+
+        <p>Opdracht 3:
+            Deze opdracht is een uitbreiding van opdracht 1.
+            Programmeer de volgende logica in de checkNumber functie:
+            ● Als het ingevoerde getal is gelijk aan en is groter dan 11, dan toon je op het label:
+            “Het ingevoerde getal is gelijk aan 11 of groter dan 11.”.</p>
+
+        <p>Opdracht 4:
+            Deze opdracht is een uitbreiding van opdracht 1.
+            Programmeer de volgende logica in de checkNumber functie:
+            ● Als het ingevoerde getal is kleiner dan 3, dan toon je op het label: “Het ingevoerde
+            getal is kleiner dan 3”.
+        </p>
+
+
+        <input type="number" name="number" id="number">
+        <button id="btn" onclick="checkNumber()">Button</button>
+        <div>
+            <span id="label"></span>
+        </div>
+
+        <script>
+
+
+        function checkNumber() {
+            let number = document.getElementById("number").value;
+
+            if ( number == 3){
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 3";
+            } 
+            if (number > 4) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is groter dan 4";
+            }
+            if (number >= 11) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 11 of groter dan 11";
+            }
+            if (number < 3) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is kleiner dan 3";
+            }
+        }
+        </script>
+    </body>
+</html>
