@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Opdracht13</title>
     </head>
     <body>
         <h1>Translate months</h1>
@@ -31,7 +31,47 @@
 
         <script>
             function translateMonth() {
+                let month = document.getElementById("number").value;
 
+                if (month == 1) {
+                    document.getElementById("translatedMonth").innerText = "January";
+                }
+                if (month == 2) {
+                    document.getElementById("translatedMonth").innerText = "February";
+                }
+                if (month == 3) {
+                    document.getElementById("translatedMonth").innerText = "March";
+                }
+                if (month == 4) {
+                    document.getElementById("translatedMonth").innerText = "April";
+                }
+                if (month == 5) {
+                    document.getElementById("translatedMonth").innerText = "May";
+                }
+                if (month == 6) {
+                    document.getElementById("translatedMonth").innerText = "June";
+                }
+                if (month == 7) {
+                    document.getElementById("translatedMonth").innerText = "Juli";
+                }
+                if (month == 8) {
+                    document.getElementById("translatedMonth").innerText = "August";
+                }
+                if (month == 9) {
+                    document.getElementById("translatedMonth").innerText = "September";
+                }
+                if (month == 10) {
+                    document.getElementById("translatedMonth").innerText = "Oktober";
+                }
+                if (month == 11) {
+                    document.getElementById("translatedMonth").innerText = "November";
+                }
+                if (month == 12) {
+                    document.getElementById("translatedMonth").innerText = "December";
+                }
+                if (!month) {
+                    document.getElementById("translatedMonth").innerText = "";
+                }
         }
             </script>
     </body>

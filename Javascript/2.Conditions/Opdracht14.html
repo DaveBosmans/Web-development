@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht14</title>
+    </head>
+    <body>
+        <h1>Translate months</h1>
+        <input type="number" name="number" id="number">
+        <button onclick="translateMonth()">translate</button>
+        <div id="translatedMonth"></div>
+
+
+        <p>Opdracht 14:
+            Maak opdracht 13 opnieuw, maar gebruik nu Switch statement om dezelfde resultaten te
+            maken.
+        </p>
+
+        <script>
+            function translateMonth() {
+                let month = document.getElementById("number").value;
+
+               switch (month) {
+                case '1':
+                    document.getElementById('translatedMonth').innerText = 'Januari';
+                    break;
+                case '2':
+                    document.getElementById('translatedMonth').innerText = 'Februari';
+                    break;
+                case '3':
+                    document.getElementById('translatedMonth').innerText = 'Maart';
+                    break;
+                case '4':
+                    document.getElementById('translatedMonth').innerText = 'April';
+                    break;
+                case '5':
+                    document.getElementById('translatedMonth').innerText = 'Mei';
+                    break;
+                case '6':
+                    document.getElementById('translatedMonth').innerText = 'Juni';
+                    break;
+                case '7':
+                    document.getElementById('translatedMonth').innerText = 'Juli';
+                    break;
+                case '8':
+                    document.getElementById('translatedMonth').innerText = 'Augustus';
+                    break;
+                case '9':
+                    document.getElementById('translatedMonth').innerText = 'September';
+                    break;
+                case '10':
+                    document.getElementById('translatedMonth').innerText = 'Oktober';
+                    break;
+                case '11':
+                    document.getElementById('translatedMonth').innerText = 'November';
+                    break;
+                case '12':
+                    document.getElementById('translatedMonth').innerText = 'December';
+                    break;
+                default:
+                    document.getElementById('translatedMonth').innerText = 'Dat is geen maand.';
+               }
+        }
+            </script>
+    </body>
+</html>
