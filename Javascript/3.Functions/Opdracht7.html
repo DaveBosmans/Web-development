@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+
+        <script>
+
+            function parameters (a,b,c,d) {
+                var e = a+b+c+d;
+                d = e;
+                return d;
+            }
+
+            let par = parameters(10,20,30,40);
+            console.log(par);
+
+
+            //Rest parameters
+            function add (a, b, ...nums) { //...nums, de puntjes zorgen ervoor dat het in een array komt opgeslagen in nums.
+                console.log(a);
+                console.log(b);
+                console.log(nums);
+
+            }
+
+            const result = add (5, 10, 20); // 5 gaat naar a, 10 gaat naar b, andere parameters gaan in een array in nums.
+            //rest parameters kun worden in een array gestopt je kan zoveel waarde toekennen als je wilt het wordt allemaal opgeslagen in jouw benoemde array.
+        
+    </script>
+        <p>Opdracht 7:
+            Hoe geef je 2 of meer parameters mee aan een functie? Geef een voorbeeld.
+            Wat zijn rest parameters? Geef een voorbeeld.
+            Wat is het verschil tussen rest parameters en expliciete parameters die je aangeeft bij
+            een
+            functie?
+        </p>
+
+        <p>Rest parameters zijn niet vooraf gedefineerde parameters die opgeslagen worden in een
+            array, expliciete parameters zijn wel vooraf gedefineerd.</p>
+    </body>
+</html>

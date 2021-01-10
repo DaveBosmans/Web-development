@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 8</title>
+
+        <style>
+            th, td {
+                border: thin solid black;
+            }
+
+            .tableContainerAll {
+                display: flex;
+                justify-content: space-around;
+            }
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="tableContainerAll">
+
+            <!-- WISKUNDE -->
+            <div class="subjectContainer">
+                <h1>Wiskunde</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Naam</th>
+                            <th>Cijfer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Changed Number</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="3"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Willem</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="3"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Jan</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="7"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Kim Sing</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="10"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Samantha</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="4"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Joyce</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="5.5"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                        <tr>
+                            <td>Gareth</td>
+                            <td><input type="number" id="inputGrade" class="gradeInputWiskunde"
+                                    value="1"
+                                    oninput="Changinggrade(this)"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+
+        <script>
+        window.onload = init ()
+        function init (){
+            let currentCijfer = document.getElementsByClassName("gradeInputWiskunde").value;
+            console.log(currentCijfer);
+            let nieuwCijfer = document.getElementById("inputGrade").value = currentCijfer;
+            console.log(nieuwCijfer);
+
+            if (nieuwCijfer < 5.5) {
+                document.getElementById("inputGrade").style.background = 'red';
+            } else if (nieuwCijfer >= 5.5) {
+                document.getElementById("inputGrade").style.background = 'green';
+            }
+        }
+
+
+        //function for changing number
+        function Changinggrade (cijferInput) {
+            let currentCijfer = cijferInput.value;
+            console.log(currentCijfer);
+            let nieuwCijfer = document.getElementById("inputGrade").value = currentCijfer;
+            console.log(nieuwCijfer);
+            
+            if (nieuwCijfer < 5.5 || document.getElementById("inputGrade") < 5.5) {
+                cijferInput.style.background = 'red';
+            } else if (nieuwCijfer >= 5.5) {
+                cijferInput.style.background = 'green';
+            }
+            
+        }
+
+        
+// var cijfernieuw = nieuwCijfer(cijferInput);
+
+        function VoldoendeOnvoldoende() {
+            if (result = 5) {
+                console.log("onvoldoende");
+            }
+        }
+        
+
+        </script>
+    </body>
+</html>
