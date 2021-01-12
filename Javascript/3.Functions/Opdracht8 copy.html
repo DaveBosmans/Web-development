@@ -87,7 +87,7 @@
                                 <td>Willem</td>
                                 <td><input type="text" id="gradeInputNatuurkundeWillem"
                                         value="7"
-                                        oninput="Changinggrade(this)"></td>
+                                        oninput="Changinggrade(this); test(this);"></td>
                             </tr>
                             <tr>
                                 <td>Jan</td>
@@ -236,9 +236,9 @@
                                 <tbody>
                                     <tr>
                                         <td>Willem</td>
-                                        <td class="talenWillem"><p></p></td>
-                                        <td class="betaWillem"></td>
-                                        <td class="volgendeKlasWillem"><p></p></td>
+                                        <td id="talenWillem"><p></p></td>
+                                        <td id="betaWillem"></td>
+                                        <td id="volgendeKlasWillem"></td>
                                     </tr>
                                     <tr>
                                         <td>Jan</td>
@@ -291,6 +291,22 @@
             console.log(cijferNatuurkundeWillem);
 
 
+            function Changinggrade (cijferInput) {
+            let currentCijfer = cijferInput.value;
+            console.log(currentCijfer);
+            let nieuwCijfer = document.getElementById("gradeInputWiskundeWillem").value = currentCijfer;
+            console.log(nieuwCijfer);
+
+            
+            if (nieuwCijfer < 5.5 || document.getElementById("gradeInputWiskundeWillem") < 5.5) {
+                cijferInput.style.background = 'red';
+            } else if (nieuwCijfer >= 5.5) {
+                cijferInput.style.background = 'green';
+            }
+        }
+
+        
+
             function gemiddeldBerekenen(wiskunde, natuurkunde, nederlands, engels) { 
                 let talen = (parseFloat (nederlands) + parseFloat(engels) ) / 2;
                 let beta = (parseFloat (wiskunde) + parseFloat (natuurkunde)) / 2;
@@ -306,29 +322,27 @@
             console.log(gemiddeldTalenWillem);
             console.log(gemiddeldBetaWillem);
 
+           
+            document.getElementById("talenWillem").innerHTML = gemiddeldTalenWillem;
+
+            function test () {
+               
+            }
+            
+          
+
             function GemmiddeldSection (gemiddeldTalenWillem, gemiddeldBetaWillem) {
                 let volgendeklasgemmidelde = (parseFloat (gemiddeldTalenWillem) + parseFloat (gemiddeldBetaWillem)) / 2;
                 console.log(volgendeklasgemmidelde);
                 if (volgendeklasgemmidelde > 6.5) {
-                    document.getElementsByClassName("volgendeKlasWillem").innerText = "ja";
+                    document.getelementById("volgendeKlasWillem").innerHTML = "ja";
                 }
             }
 
             GemmiddeldSection(gemiddeldTalenWillem, gemiddeldBetaWillem);
            
-            function Changinggrade (cijferInput) {
-            let currentCijfer = cijferInput.value;
-            console.log(currentCijfer);
-            let nieuwCijfer = document.getElementById("gradeInputWiskundeWillem").value = currentCijfer;
-            console.log(nieuwCijfer);
             
-            if (nieuwCijfer < 5.5 || document.getElementById("gradeInputWiskundeWillem") < 5.5) {
-                cijferInput.style.background = 'red';
-            } else if (nieuwCijfer >= 5.5) {
-                cijferInput.style.background = 'green';
-            }
             
-        }
 
             // let gemiddeldeWillem = gemiddeldBerekenen(cijferWiskunde[0], cijferNatuurkunde[0], cijferNederlands[0], cijferEngels[0]);
             // let gemiddeldeWillem = gemiddeldBerekenen(cijferWiskunde[1], cijferNatuurkunde[1], cijferNederlands[1], cijferEngels[1]);
