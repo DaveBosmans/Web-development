@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <script>
+
+            //Opdracht 1
+            let randomNumbers = [];
+            randomNumbers = [1, 4, 5, 8, 9, 13, 15, 25, 60, 10];
+            console.log(randomNumbers[4]);
+
+            //Opdracht 2
+            let fruit = [];
+            fruit = ["Appel", "Peer", "Aardbei", "Mango", "Kiwi"];
+            console.log(fruit);
+
+            //Opdracht 3
+            console.log(fruit[0]);
+
+            //Opdracht 4
+            console.log(fruit[2]);
+
+            //Opdracht 5
+            let math = Math.floor(Math.random() * randomNumbers.length);
+            console.log(fruit[math % 5]);
+
+            //Opdracht 6
+            //.push voegt comma-separated list of values to the end of the array.
+            fruit.push("andere fruitsoorten", "banaan");
+            console.log(fruit);
+
+            //.pop verwijderd de laatste value van een array .
+            fruit.pop();
+            console.log(fruit);
+
+            //.shift verwijderd de eerste value van een array.
+            fruit.shift();
+
+            //.slice creëert een kopie van de array, meestal assigned aan een nieuwe variable.
+            var newFruit = fruit.slice()
+            console.log("new fruit", newFruit);
+
+            //.splice vind de specifieke positie en verwijder vanaf een nummer in de array.
+            fruit.splice(2, 2); // start bij de 2e item en verwijder twee items in de array.
+            console.log(fruit);
+
+
+            //Opdracht 7
+            console.log("lengte fruits array; " + fruit.length);
+
+            //Opdracht 8 
+            fruit.splice (0 , 1, "test")
+            console.log(fruit);
+
+            //Opdracht 9
+            fruit = ["Appel", "Peer", "Aardbei", "Mango", "Mandarijn"];
+            console.log(fruit);
+            fruit.splice(2, 1, "Manderijn");
+            console.log(fruit);
+            fruit.splice(4,1, "Aardbei");
+            console.log(fruit);
+        </script>
+    </body>
+</html>
