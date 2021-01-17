@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 8 Loops & Iterators</title>
+    </head>
+    <body>
+
+        <div id="answer"></div>
+        <script>
+
+            // 1. Volgend resultaat moet vorige nummer + nummer ervoor worden.
+            // 2. Variable maken met als resultaat 2 getallen. var getal = 0; var getal1 = 0; getal 2 = 1 getal3 = getal 1 + getal 2;
+            // 3. Loop maken die 50 keer dit toepast.
+
+
+                let array = [2, 7, 5, 10, 4, 9, 3, 1, 8, 6];
+                console.log(array);
+                for (i=0; i<array.length-1; i++){
+                   for (x = 0; x<array.length-1-i; x++) {
+                    if (array[x] > array[x+1]) {
+                        let tmp = array[x];
+                        array[x] = array[x+1];
+                        array[x+1] = tmp;
+                    }
+                   }
+                }
+                console.log(array);
+           
+
+
+           
+        </script>
+        <p>Opdracht 9:
+            Stel je hebt het volgende array met random getallen:
+            ● [2,7,5,10,4,9,3,1,8,6]
+            Bubble sort is een hele bekende sorterings algoritme. Hiermee kun je de array met random
+            getallen sorteren van klein naar groot. Je mag bij deze oefening geen gebruik maken van
+            de
+            sort() functie. Lees je in hoe Bubble sort werkt:
+            https://en.wikipedia.org/wiki/Bubble_sort en
+            codeer de sorterings algoritme uit.
+
+
+        </p>
+    </body>
+</html>
