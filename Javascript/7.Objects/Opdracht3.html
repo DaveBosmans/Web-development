@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+            initial-scale=1.0">
+        <title>Objects Opdracht 3</title>
+    </head>
+    <body>
+        <div id="clubs" class="clubs"></div>
+        <script>
+
+            // let contactgegevens = new Object();
+            // contactgegevens = {
+            //     Adres: "", 
+            //     Telefoonnr: "",
+            //     Contactpersoon: ""
+            // }
+
+            //  let club = new Object();
+            //  club = {
+            //     Clubname: "", 
+            //     Typesport: "", 
+            //     Members: "",
+            //     ...contactgegevens
+            // };
+            // console.log(club);
+
+            
+            // let clubData = {
+            //     ...club, 
+            //     ...contactgegevens};
+            // console.log(clubData);
+
+
+            function Club(clubname, typesport, members, stadium) {
+                this.clubname = clubname;
+                this.typesport = typesport;
+                this.members = members;
+                this. stadium = stadium;
+            };
+
+            // let feyenoord = new Club("Feyenoord", "Voetbal", "39", "De Kuip");
+            // let ajax = new Club("Ajax", "Voetbal", "20", "De Arena");
+            // let psv = new Club("PSV", "Voetbal", "15", "Philips Stadion");
+
+            // let allClubs = [feyenoord, ajax, psv];
+
+            // for (i = 0; i<allClubs.length; i++){
+            //     console.log(allClubs[i].clubname);
+            // }
+
+            let allClubs = [
+             new Club("Feyenoord", "Voetbal", "39", "De Kuip"),
+             new Club("Ajax", "Voetbal", "20", "De Arena"),
+             new Club("PSV", "Voetbal", "15", "Philips Stadion")
+            ];
+
+
+             for (i = 0; i<allClubs.length; i++){
+                console.log(allClubs[i].clubname);
+            }
+           
+ </script>
+        <p>Opdracht 3:
+            Het is heel gebruikelijk dat dezelfde objecten in een lijst staan. Maak een lijst aan en
+            voeg 4
+            Club objecten toe aan de lijst. Itereer over de lijst heen en print de verschillende
+            clubnamen
+            uit op jouw pagina.</p>
+    </body>
+</html>

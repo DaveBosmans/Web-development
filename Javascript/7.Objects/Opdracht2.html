@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+            initial-scale=1.0">
+        <title>Objects Opdracht 2</title>
+    </head>
+    <body>
+        <div id="clubs" class="clubs"></div>
+        <script>
+
+            let contactgegevens = new Object();
+            contactgegevens = {
+                Adres: "", 
+                Telefoonnr: "",
+                Contactpersoon: ""
+            }
+
+             let club = new Object();
+             club = {
+                Clubname: "", 
+                Typesport: "", 
+                Members: "",
+                ...contactgegevens
+            };
+            console.log(club);
+
+            
+            let clubData = {
+                ...club, 
+                ...contactgegevens};
+            console.log(clubData);
+ </script>
+        <p>Opdracht 2:
+            Maak een Object van contactgegevens en voeg dat ook toe aan de club object:
+            ● Contactgegevens
+            ○ Adres
+            ○ Telefoonnr
+            ○ Contactpersoon</p>
+    </body>
+</html>
