@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht 6 Objects</title>
+    </head>
+    <body>
+
+
+
+
+        <script>
+            class Person {
+                constructor(name, age) {
+                    this.name = name;
+                    this.age = age;
+                }
+                thePerson () {
+                    console.log('Persons name is ${this.name} en leeftijd is ${this.age}');
+                }
+
+            }
+
+
+            let jan = new Person("Jan", 24);
+
+            jan.thePerson();
+        </script>
+        <p>Opdracht 6:
+            De nieuwe manier van objecten creëren kan je ook gebruik maken van classes. Lees je in
+            over classes:
+            https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#:~:text=Classe
+            s%20are%20a%20template%20for,shared%20with%20ES5%20classalike%20semantics.
+            Zet opdracht 4 om in classes i.p.v object constructors.
+        </p>
+    </body>
+</html>
