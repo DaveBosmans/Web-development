@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container"></div>
+
+        <script>
+        class Game {
+
+            constructor(container, icons){
+                this.icons = icons;
+
+                this.title = document.createElement('h3');
+                this.title.innerText = 'Make your choice!';
+                container.appendChild(this.title);
+
+                icons.forEach((icon) => {
+                    
+                })
+            }
+
+        }
+
+
+        new Game(document.querySelector('#container'), ["steen", "Papier", "Schaar"]);
+    </script>
+    </body>
+</html>

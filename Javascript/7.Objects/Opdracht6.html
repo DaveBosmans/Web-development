@@ -16,16 +16,18 @@
                     this.name = name;
                     this.age = age;
                 }
-                thePerson () {
-                    console.log('Persons name is ${this.name} en leeftijd is ${this.age}');
+               thePerson () {
+                    console.log(`Persons name is ${this.name} en leeftijd is ${this.age}`);
                 }
 
             }
 
-
+           
             let jan = new Person("Jan", 24);
-
+            let kees = new Person("Kees", 154);
+           
             jan.thePerson();
+            kees.thePerson();
         </script>
         <p>Opdracht 6:
             De nieuwe manier van objecten creëren kan je ook gebruik maken van classes. Lees je in
