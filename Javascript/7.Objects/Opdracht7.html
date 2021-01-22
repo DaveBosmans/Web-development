@@ -7,26 +7,131 @@
     </head>
     <body>
         <div id="container"></div>
+        <button id="Rock" onclick="player1Pick(this)" class="choice">Rock</button>
+        <button id="Paper" onclick="player1Pick(this)" class="choice">Paper</button>
+        <button id="Sciccors" onclick="player1Pick(this)" class="choice">Sciccors</button>
+
+        <div id="computerScore"></div>
+        <div id="playerScore"></div>
+        <div id="drawScore"></div>
 
         <script>
-        class Game {
+        
+       
+        // let player1;
+       
+       
 
-            constructor(container, icons){
-                this.icons = icons;
+        // let player1 = document.getElementsByClassName("choice").addEventListener('click', player1Pick(this));
+      
+        const playerRock = document.getElementById("Rock").innerText;
+        const playerPaper = document.getElementById("Paper").innerText;
+        const playerSciccors = document.getElementById("Sciccors").innerText;
 
-                this.title = document.createElement('h3');
-                this.title.innerText = 'Make your choice!';
-                container.appendChild(this.title);
+        let player1Winner = 0;
+        let computerWinner = 0;
+        let draw = 0;
 
-                icons.forEach((icon) => {
-                    
-                })
+        let htmlScorePlayer = "Player 1 Score: ";
+        let htmlScoreComputer = "Computer Score: ";
+        let htmlScoreDraw = "Draw: ";
+        let preText = "<h2>";
+        let postText = "</h2>";
+
+        
+
+            function player1Pick(playerChoice) {
+                let choices = ["Rock", "Paper", "Sciccors"];
+                let computer = Math.floor(Math.random()*choices.length);
+                let computerPick = choices[computer];
+                let player1 = playerChoice.innerText;
+               
+               
+                console.log("Computer Picked: " + computerPick + "\n Player Picked: " + player1);
+
+                switch (computerPick) {
+                    case "Paper":
+                        if (player1 == "Sciccors") {
+                            ++player1Winner
+                            console.log("Player 1 Has Won!");
+                            document.getElementById("playerScore").innerHTML = preText + htmlScorePlayer + postText + player1Winner;
+                        } else if (player1 == computerPick) {
+                            ++draw
+                            document.getElementById("drawScore").innerHTML = preText + htmlScoreDraw + postText + draw;
+                            console.log("Draw");
+                        } else {
+                            ++computerWinner
+                            document.getElementById("computerScore").innerHTML = preText + htmlScoreComputer + postText + computerWinner;
+                            console.log("Computer Won!");
+                        }
+                        break;
+
+                        case "Rock":
+                        if (player1 == "Paper") {
+                            ++player1Winner
+                            document.getElementById("playerScore").innerHTML = preText + htmlScorePlayer + postText + player1Winner;
+                            console.log("Player 1 Has Won!");
+                        } else if (player1 == computerPick) {
+                            ++draw
+                            document.getElementById("drawScore").innerHTML = preText + htmlScoreDraw + postText + draw;
+                            console.log("Draw");
+                        } else {
+                            ++computerWinner
+                            document.getElementById("computerScore").innerHTML = preText + htmlScoreComputer + postText + computerWinner;
+                            console.log("Computer Won!");
+                        }
+                        break;
+
+                        case "Sciccors":
+                        if (player1 == "Rock") {
+                            ++player1Winner
+                            document.getElementById("playerScore").innerHTML = preText + htmlScorePlayer + postText + player1Winner;;
+                            console.log("Player 1 Has Won!");
+                        }  else if (player1 == computerPick) {
+                            console.log("Draw");
+                            ++draw
+                            document.getElementById("drawScore").innerHTML = preText + htmlScoreDraw + postText + draw;
+
+                        } else {
+                            ++computerWinner
+                            document.getElementById("computerScore").innerHTML = preText + htmlScoreComputer + postText + computerWinner;
+                            console.log("Computer Won!");
+                        }
+                        break;
+                
+                    default:
+                        console.log("Computer Has Won!");
+                        break;
+                }
+
+                console.log("Player " + player1Winner);
+                console.log("Computer " + computerWinner);
+                console.log("Draw " + draw);
+
             }
+           
+            // let player1 = playerChoice.innerText;
+            
+        
 
-        }
+           function WinorLose() {
+        
 
+            switch (computerPick) {
+                case value:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
+           }
+     
+        
+      
+       
 
-        new Game(document.querySelector('#container'), ["steen", "Papier", "Schaar"]);
+      
     </script>
     </body>
 </html>

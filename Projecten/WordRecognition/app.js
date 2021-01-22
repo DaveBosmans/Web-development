@@ -31,7 +31,9 @@ recognition.onresult = function (event) {
     var wordsSaid = event.results[last] [0].transcript;
     message.textContent = "Uw Woorden: " + wordsSaid + ".";
     console.log(wordsSaid);
-    let words = "man";
+    let words = document.getElementById("word").value;
+
+    console.log(words);
 
     if (wordsSaid.includes(words)) {
         var audio = new Audio ('Copy of explosie.mp3');
