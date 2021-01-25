@@ -10,40 +10,43 @@
 
         <div id="flexcontainer">
 
-            <div class="output"></div>
-
-            <div class="row">
-                <button onclick="calculator(this)" class="button">AC</button>
-                <button onclick="calculator(this)" class="button">+/-</button>
-                <button onclick="calculator(this)" class="button">%</button>
-                <button onclick="calculator(this)" class="yellow">/</button>
+            <div id="flexOutput">
+                <div id="calculation"></div>
+                <div id="output"></div>
             </div>
 
             <div class="row">
-                <button onclick="calculator(this)" class="button gray">7</button>
-                <button class="button gray">8</button>
-                <button class="button gray">9</button>
-                <button class="yellow gray">x</button>
+                <button onclick="inputButtons(this)" id="AC" class="button buttonInput">AC</button>
+                <button onclick="inputButtons(this)" class="button buttonInput">+/-</button>
+                <button onclick="inputButtons(this)" class="button buttonInput">%</button>
+                <button onclick="inputButtons(this)" class="yellow buttonInput">/</button>
             </div>
 
             <div class="row">
-                <button onclick="calculator(this)" class="button gray">4</button>
-                <button onclick="calculator(this)" class="button gray">5</button>
-                <button onclick="calculator(this)" class="button gray">6</button>
-                <button onclick="calculator(this)" class="yellow">-</button>
+                <button onclick="inputButtons(this)" value= 7 class="button gray buttonInput">7</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">8</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">9</button>
+                <button onclick="inputButtons(this)" class="yellow gray buttonInput">*</button>
             </div>
 
             <div class="row">
-                <button onclick="calculator(this)" class="button gray">1</button>
-                <button onclick="calculator(this)" class="button gray">2</button>
-                <button onclick="calculator(this)" class="button gray">3</button>
-                <button onclick="calculator(this)" class="yellow">+</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">4</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">5</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">6</button>
+                <button onclick="inputButtons(this)" class="yellow buttonInput">-</button>
             </div>
 
             <div class="row">
-                <button class="button span gray">0</button>
-                <button class="button gray">.</button>
-                <button class="yellow">=</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">1</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">2</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">3</button>
+                <button onclick="inputButtons(this)" class="yellow buttonInput">+</button>
+            </div>
+
+            <div class="row">
+                <button onclick="inputButtons(this)" class="button span gray buttonInput">0</button>
+                <button onclick="inputButtons(this)" class="button gray buttonInput">.</button>
+                <button onclick="inputButtons(this)" class="yellow buttonInput">=</button>
             </div>
 
         </div>
