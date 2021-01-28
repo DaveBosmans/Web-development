@@ -15,7 +15,7 @@ function inputButtons(pressed) {
     }, 500);
   }
   if (buttonInput == "=") {
-    outputScreen.innerHTML = +parseFloat(eval(outputScreen.innerHTML)).toFixed(2);
+    outputScreen.innerHTML =+ parseFloat(eval(outputScreen.innerHTML)).toFixed(2);
     console.log(typeof test);
     console.log(outputScreen);
     console.log("datatype " + typeof outputScreen.innerHTML);
@@ -32,7 +32,6 @@ function inputButtons(pressed) {
     }
   }
 }
-
 document.getElementById("calculation").addEventListener("click", function(){
     console.log("hry");
 })
