@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0a11ce64-7df3-4534-937a-49c0529d5f45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/ControlFlow.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControlFlow/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/out/production/Test/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlFlow/out/production/ControlFlow/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/out/production/ControlFlow/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControlFlow/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ControlFlow/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
