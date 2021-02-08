@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8112015-fb71-4c74-9709-892f44189fc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/.idea/JavaLeren.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/Classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/out/production/Classes/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/out/production/Classes/com/company/StudentProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/out/production/Classes/com/company/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/src/com/company/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/src/com/company/StudentProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Classes/src/com/company/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/ControlFlow.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/out/production/ControlFlow/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ControlFlow/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/CustomClasses.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/out/production/CustomClasses/DefaultPackageClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/out/production/CustomClasses/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/out/production/CustomClasses/com/company/model/ClothingItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/out/production/CustomClasses/com/company/model/ClothingSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/out/production/CustomClasses/com/company/utilities/CalcHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/src/DefaultPackageClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/src/com/company/model/ClothingItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/src/com/company/model/ClothingSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/CustomClasses/src/com/company/utilities/CalcHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/Data Types and Variables in Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/out/production/Data Types and Variables in Java/DataTypesandVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Data Types and Variables in Java/src/DataTypesandVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/Debugging.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/out/production/Debugging/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Debugging/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/ExceptionHandling.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/out/production/ExceptionHandling/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/ExceptionHandling/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/Functions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/out/production/Functions/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaLeren/Functions/Functions/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MVCapptest/MvCapptestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MVCapptest/controller/ItemsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MVCapptest/model/Items.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MVCapptest/service/ItemsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemsView.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/MVCapptest/MvCapptestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/src/main/java/com/example/SpringBootTest/SpringBootTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/src/main/java/com/example/SpringBootTest/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootTest/src/test/java/com/example/SpringBootTest/SpringBootTestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/example/test/TestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/java/com/example/test/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/test/java/com/example/test/TestApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1o6wrGAU6jjQhUUJBSbFaVQBa95" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MvCapptestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.MVCapptest.MvCapptestApplication" />
+      <module name="MVCapptest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.MVCapptest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MvCapptestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8112015-fb71-4c74-9709-892f44189fc8" name="Default Changelist" comment="" />
+      <created>1612620545297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612620545297</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
