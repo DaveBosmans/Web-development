@@ -15,6 +15,7 @@ public class ItemsService {
         items.add(new Items(1, "Bike", 99.99,10));
         items.add(new Items(2, "Treadmill", 99.99,5));
         items.add(new Items(3, "Elliptical", 250.00,7));
+
         return items;
     }
 }

@@ -17,7 +17,8 @@
             </thead>
 
             <tbody>
-            <tr th:each="ïtem:${items}">
+            <tr th:each="item:${items}">
+
                 <td th:text="${item.itemId}"/>
                 <td th:text="${item.itemName}"/>
                 <td th:text="${item.itemPrice}"/>
