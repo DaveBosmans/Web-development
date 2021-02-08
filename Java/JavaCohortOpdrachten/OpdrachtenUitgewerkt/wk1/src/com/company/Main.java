@@ -49,12 +49,31 @@ public class Main {
 //       Class/Static variables en Instance variables worden op dezelfde plek gedeclareerd, en houden ook allebei de gegevens van een Object bij.
 //       b) Wat voor soort informatie sla je op in een instance variable?
 //       Instance variables are declared in a class, but outside a method, constructor or any block.
+//       Instance variables hold values that must be referenced by more than one method, constructor or block,
+//       or essential parts of an object's state that must be present throughout the class.
 
 //       c) Wat voor soort informatie sla je op in een class variable?
-        
+//        Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.
+//        There would only be one copy of each class variable per class, regardless of how many objects are created from it.
+//        These variables are mostly final and are non changing.
 //
 //       De waarde van een class variable kan je in principe ook opslaan in een instance variable.
 //       d) Wat is het voordeel van het gebruiken van een class variable?
+//       There's only one copy of that variable that is shared with all instances of that class.
+//       If changes are made to that variable, all other instances will see the effect of the changes.
+//
+//        ---------------------EINDE OPDRACHT 2
+
+// ------------ BEGIN OPDRACHT 3
+
+//        Opdracht 3 - Access Control Modifiers
+//        Java gebruikt zogenaamde modifiers om bepaalde eigenschappen van stukjes code te
+//        veranderen. Deze zijn te verdelen in Access Control Modifiers en Non-Access Modifiers
+//        De Access Control Modifiers zijn heel belangrijk om te begrijpen - die geven namelijk aan
+//        welke onderdelen van je applicatie van het betreffende stukje code gebruik mogen maken.
+
+//        Noem de vier verschillende Access Control Modifiers en geef bij elke een korte beschrijving.
+
 
 
 
