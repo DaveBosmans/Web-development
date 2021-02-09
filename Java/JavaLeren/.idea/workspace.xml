@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a11ce64-7df3-4534-937a-49c0529d5f45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Debugging/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Debugging/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="0a11ce64-7df3-4534-937a-49c0529d5f45" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1nkQrzzh8g7G6LUpmya2nd6iWLi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
