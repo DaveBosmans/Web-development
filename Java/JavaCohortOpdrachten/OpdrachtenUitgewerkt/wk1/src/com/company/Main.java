@@ -205,7 +205,7 @@ public class Main {
 
         String[] eastcars = {"Kia", "Honda"};
         String[] cars = {"Kia", "Volkswagen", "Renault", "Honda", "BMW"};
-        ArrayList<String> westcars = new ArrayList<>();
+
 
 
         //      --------------  8a. -----------
@@ -220,7 +220,31 @@ public class Main {
 //        }
 
 //      --------------  8c. -----------
+//
+        ArrayList<String> westcars = new ArrayList<>();
 
-        
+        for (String text:cars) {
+//            westcars.add(text);
+            for (int i = 0; i < eastcars.length; i++) {
+                if (text == eastcars[i]){
+                } else {
+                    westcars.add(text);
+                }
+            }
+        }
+        System.out.println(westcars);
+
+//        for (String text:cars) {
+//            westcars.add(text);
+//        }
+//        System.out.println(westcars);
+
+//        for (var i = 0; i < 6; i++) {
+//            if(cars[i].equals(westcars.get(i))){
+//
+//            }
+//        }
+
+
     }
 }
