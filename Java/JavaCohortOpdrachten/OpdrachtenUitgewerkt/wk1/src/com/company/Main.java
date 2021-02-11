@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
@@ -203,8 +204,7 @@ public class Main {
 
 
 
-        String[] eastcars = {"Kia", "Honda"};
-        String[] cars = {"Kia", "Volkswagen", "Renault", "Honda", "BMW"};
+
 
 
 
@@ -221,19 +221,37 @@ public class Main {
 
 //      --------------  8c. -----------
 //
-        ArrayList<String> westcars = new ArrayList<>();
 
+        String[] eastcars = {"Kia", "Honda"};
+        String[] cars = {"Kia", "Volkswagen", "Renault", "Honda", "BMW"};
+
+        ArrayList<String> westcars = new ArrayList<>();
+        /** /
         for (String text:cars) {
-//            westcars.add(text);
-            for (int i = 0; i < eastcars.length; i++) {
-                if (text == eastcars[i]){
+            for (int i = 0; i < eastcars.length; i++ ) {
+                if (text == eastcars[i]) {
+                    System.out.println("if statement triggered");
                 } else {
-                    westcars.add(text);
+                    System.out.println("else statement triggered");
+//                    westcars.add(text);
                 }
             }
         }
-        System.out.println(westcars);
+            System.out.println(westcars);
 
+         /*/
+       for (String a : cars) {
+           if(a != eastcars[0] && a != eastcars[1]) {
+               westcars.add(a);
+           } else {
+               System.out.println("not ok");
+           }
+       }
+        Collections.sort(westcars);
+        System.out.println(westcars);
+        /**/
+
+//        System.out.println(westcars);
 //        for (String text:cars) {
 //            westcars.add(text);
 //        }
@@ -246,5 +264,6 @@ public class Main {
 //        }
 
 
-    }
+        }
 }
+
