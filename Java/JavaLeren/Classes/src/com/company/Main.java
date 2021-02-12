@@ -18,6 +18,7 @@ public class Main {
 //        System.out.println(triangleA.sideLenThree);
 //        System.out.println(triangleB.base);
 //        System.out.println(Triangle.numsOfSides);
+//        ..
 
         StudentProfile profileOne = new StudentProfile("Dave", "Bosmans", "Back End Developer", 5, 2021);
         StudentProfile profileTwo = new StudentProfile("John", "Doe", "Front End Developer", 5, 2021);
