@@ -1,11 +1,15 @@
 package com.company;
-import com.company.Animal;
-import com.company.Bear;
+
 public class Main {
 
     public static void main(String[] args) {
-        var bear1 = new Bear("Willy", 8);
-        var bear2 = new Bear("Polly", 12);
+        Bear bear1 = new Bear("Willy", 8, "Brown Bear");
+        Bear bear2 = new Bear("Polly", 12, "Polly Bear");
+        Animal bird = new Animal("Birdy", 1);
+
+        bear1.namePrint();
 
     }
 }
+
+
