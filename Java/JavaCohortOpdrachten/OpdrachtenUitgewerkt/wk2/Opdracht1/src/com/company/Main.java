@@ -7,7 +7,16 @@ public class Main {
         Bear bear2 = new Bear("Polly", 12, "Polly Bear");
         Animal bird = new Animal("Birdy", 1);
 
-        bear1.namePrint();
+        Bear bears[] = {bear1, bear2};
+        Animal animals[] = {bear1, bear2, bird};
+
+//        bear1.showType();
+//        bear2.showType();
+
+        for (int i = 0; i < animals.length; i++) {
+            System.out.println(animals[i].showType());
+            System.out.println(animals[i].getName());
+        }
 
     }
 }

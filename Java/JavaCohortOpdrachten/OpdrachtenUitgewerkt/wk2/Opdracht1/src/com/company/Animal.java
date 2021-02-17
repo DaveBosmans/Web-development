@@ -19,4 +19,28 @@ public class Animal {
 
     }
 
+    public String showName(){
+        return name;
+    }
+
+
+    public String showType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getLeeftijd() {
+        return leeftijd;
+    }
+
+    public void setLeeftijd(Integer leeftijd) {
+        this.leeftijd = leeftijd;
+    }
 }
