@@ -12,11 +12,11 @@ public class Animal {
     }
 
     public void feed() {
-
+        System.out.println("feeding method in Animal");
     }
 
     public void visitVet(){
-
+        System.out.println("The vet is alive");
     }
 
     public String showName(){
