@@ -6,12 +6,12 @@ public class Main {
 
 
     //OPDRACHT 1 t/m 3
-//        Bear bear1 = new Bear("Willy", 8, "Brown Bear", 68);
-//        Bear bear2 = new Bear("Polly", 12, "Polly Bear", 70);
-//        Animal bird = new Animal("Birdy", 1);
-//
-//        Bear bears[] = {bear1, bear2};
-//        Animal animals[] = {bear1, bear2, bird};
+        Bear bear1 = new Bear("Willy", 8, "Brown Bear", 68);
+        Bear bear2 = new Bear("Polly", 12, "Polly Bear", 70);
+        Animal bird = new Animal("Birdy", 1);
+
+        Bear bears[] = {bear1, bear2};
+        Animal animals[] = {bear1, bear2, bird};
 //
 ////        bear1.showType();
 ////        bear2.showType();
@@ -21,27 +21,22 @@ public class Main {
 ////            System.out.println(animals[i].getName());
 ////        }
 //
-//        for (Animal animalsLoop : animals) {
-//            animalsLoop.feed();
-//            animalsLoop.visitVet();
-//        }
-//
-//        for (Bear bearsLoop : bears) {
-//            bearsLoop.feed();
-//            bearsLoop.feed("This feeding method is overloaded");
-//            bearsLoop.visitVet();
-//        }
-//
-//    }
+        for (Animal animalsLoop : animals) {
+            animalsLoop.feed();
+            animalsLoop.visitVet();
+        }
 
+        for (Bear bearsLoop : bears) {
+            bearsLoop.feed();
+            bearsLoop.feed("This feeding method is overloaded");
+            bearsLoop.visitVet();
+        }
 
-    //BONUS OPDRACHT
-
-
+    }
 
 
     }
 
-}
+
 
 
