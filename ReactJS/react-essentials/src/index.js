@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
-  React.createElement("h1", {style: {color: "blue"}}, "Heyyyy Everyone!"),
+ <App />,
   document.getElementById('root')
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
