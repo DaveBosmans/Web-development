@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,11 +9,11 @@ public class Main {
         //Maak in je Student class een abstract method passYear(). Kan je al bedenken op wat voor plek je de code voor passYear() zou moeten implementeren?
 
 
-        FirstYear dave = new FirstYear();
+        SecondYear dave = new SecondYear();
 
         //NOTITIES EERSTE JAAR
         dave.addNotitie("Goede Student");
-        System.out.println("Notities van dave zijn : " + dave.FirstYear.notitiesStudent);
+        System.out.println("Notities van dave zijn : " + dave.notitiesStudent);
 
         //CIJFERS EERSTE JAAR
         dave.changeCijfers(7, 8, 4);
@@ -25,6 +26,5 @@ public class Main {
         for (int i = 0; i < dave.vakken.length; i++) {
             System.out.println("vakken van Dave = " + dave.vakken[i]);
         }
-
     }
 }
