@@ -25,6 +25,7 @@ public class Main {
         dave.changeVakken("Java", "React.js", "SpringBoot");
         for (int i = 0; i < dave.vakken.length; i++) {
             System.out.println("vakken van Dave = " + dave.vakken[i]);
+            //
         }
     }
 }
