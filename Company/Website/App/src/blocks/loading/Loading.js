@@ -39,7 +39,8 @@ class Loading extends Component {
                     <div className="d-flex justify-content-center align-items-center h-100">
                         <div className="loading-content">
                             <div className="logo logo-primary">
-                                <img className="animated zoomin" src="assets/img/logo/logo-dark.svg" alt="Logo" />
+                                {/* <img className="animated zoomin" src="assets/img/logo/logo-dark.svg" alt="Logo" /> */}
+                                <h1 className="animated zoomin">DB Webstudio</h1>
                             </div>
                         </div>
                     </div>

@@ -8,15 +8,15 @@ const PageTitleHome = () => {
             <div className="wrapper d-flex flex-column justify-content-center">
                 <div className="page-title-body page-title-body-space-left">
                     <div className="title">
-                        <h1 className="large">Web Development<br/> Agency</h1>
+                        <h1 className="large">Web Development<br/> Studio</h1>
                     </div>
 
                     <div className="description spacer p-top-lg">
-                        <p>We are digital business consulting agency that helps companies increase better incomes and help with branding for faster business growing.</p>
+                        <p>DB Webstudio helpt je met maatwerk online oplossingen door het bouwen van slimme websites, volledig gericht op jouw bedrijf. </p>
                     </div>
 
                     <div className="spacer p-top-lg no-space">
-                        <a href={ process.env.PUBLIC_URL + "/about-us"} className="btn btn-outline-tertiary">Learn More</a>
+                        <a href={ process.env.PUBLIC_URL + "/about-us"} className="btn btn-outline-tertiary">Lees Meer</a>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ const PageTitleHome = () => {
                         </a>
 
                         <div className="align-self-end">
-                            <ModalMenuLanguages />
+                            {/* <ModalMenuLanguages /> */}
                         </div>
                     </div>
                 </div>

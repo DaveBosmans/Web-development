@@ -86,11 +86,11 @@ class HomeHeaderMenuPrimary extends Component {
                 <nav className="menu-primary">
                     <ul className="nav">
                         <li id="nav-services" className="nav-item">
-                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Services" to="services" href="#services">Services</Link>
+                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Services" to="services" href="#services">Diensten</Link>
                         </li>
 
                         <li id="nav-about" className="nav-item">
-                            <Link onClick={ ( e ) => this.handleClick( e ) } title="About Us" to="about-us" href="#about-us">About Us</Link>
+                            <Link onClick={ ( e ) => this.handleClick( e ) } title="About Us" to="about-us" href="#about-us">Over Ons</Link>
                         </li>
 
                         <li id="nav-teams" className="nav-item">
@@ -98,7 +98,7 @@ class HomeHeaderMenuPrimary extends Component {
                         </li>
 
                         <li id="nav-pricing" className="nav-item">
-                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Pricing" to="price-plans" href="#price-plans">Pricing</Link>
+                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Pricing" to="price-plans" href="#price-plans">Prijzen</Link>
                         </li>
 
                         <li id="nav-testimonials" className="nav-item">
@@ -106,11 +106,11 @@ class HomeHeaderMenuPrimary extends Component {
                         </li>
 
                         <li id="nav-news" className="nav-item">
-                            <Link onClick={ ( e ) => this.handleClick( e ) } title="News" to="news" href="#news">News</Link>
+                            <Link onClick={ ( e ) => this.handleClick( e ) } title="News" to="news" href="#news">Nieuws</Link>
                         </li>
 
                         <li id="nav-contacts" className="nav-item">
-                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Contacts" to="contacts" href="#contacts">Contacts</Link>
+                            <Link onClick={ ( e ) => this.handleClick( e ) } title="Contacts" to="contacts" href="#contacts">Contact</Link>
                         </li>
                     </ul>
                 </nav>
