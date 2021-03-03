@@ -6,7 +6,7 @@ const TeamMembers = () => {
     return (
         <div className="wrapper">
             <div className="title">
-                <h6 className="text-primary text-uppercase">Meet our team</h6>
+                <h6 className="text-primary text-uppercase">Ontmoet Ons Team</h6>
             </div>
 
             <div className="title-opacity">
@@ -14,7 +14,7 @@ const TeamMembers = () => {
             </div>
 
             <div className="description">
-                <h2>We are Business Consulting Professionals</h2>
+                <h2>Wij zijn IT Professionals</h2>
             </div>
 
             <div className="row gutter-width-md with-pb-md spacer p-top-lg">
@@ -44,20 +44,20 @@ const TeamMembers = () => {
         
                                 <nav className="team-member-nav-items">
                                     <ul className="nav">
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a title="Facebook" href={ member.facebook }>
                                                 <i className="fab fa-facebook-f"></i></a>
-                                        </li>
+                                        </li> */}
         
                                         <li className="nav-item">
                                             <a title="LinkedIn" href={ member.linkedIn }>
                                                 <i className="fab fa-linkedin-in"></i></a>
                                         </li>
         
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a title="Instagram" href={ member.instagram }>
                                                 <i className="fab fa-instagram"></i></a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </nav>
                             </div>

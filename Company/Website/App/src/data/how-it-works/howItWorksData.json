@@ -1,23 +1,23 @@
 [
     {
         "id": "1",
-        "title": "Business Analysis",
+        "title": "Design",
         "color": "1",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "description": "Allereerst hebben we een kennismakingsgesprek. Op basis van dit gesprek maken wij een design.",
         "processNum": "01"
     },
     {
         "id": "2",
-        "title": "Business Planning",
+        "title": "Development",
         "color": "2",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "description": "Na de goedkeuring van het design zal het development team aan de slag gaan met het bouwen van je website.",
         "processNum": "02"
     },
     {
         "id": "3",
-        "title": "Business Growth",
+        "title": "Oplevering",
         "color": "3",
-        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "description": "Uw website is klaar om gepresenteerd te worden en bij goedkeuring wordt uw website gelanceerd!",
         "processNum": "03"
     }
 ]

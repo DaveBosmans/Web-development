@@ -4,7 +4,7 @@ import ModalMenuLanguages from '../menu/ModalMenuLanguages';
 
 const PageTitleHome = () => {
     return (
-        <section id="page-title" className="block with-img with-service-items" style={ { backgroundImage: `url( ${ require( "../../assets/img/placeholder/1920x1000.jpg" ) } )` } }>
+        <section id="page-title" className="block with-img with-service-items" style={ { backgroundImage: `url( ${ require( "../../assets/img/bg/headerbackground.jpg" ) } )` } }>
             <div className="wrapper d-flex flex-column justify-content-center">
                 <div className="page-title-body page-title-body-space-left">
                     <div className="title">
@@ -16,7 +16,7 @@ const PageTitleHome = () => {
                     </div>
 
                     <div className="spacer p-top-lg no-space">
-                        <a href={ process.env.PUBLIC_URL + "/about-us"} className="btn btn-outline-tertiary">Lees Meer</a>
+                        <a href={ process.env.PUBLIC_URL + "/about-us"} className="btn btn-outline-tertiary">Neem Contact Op</a>
                     </div>
                 </div>
 

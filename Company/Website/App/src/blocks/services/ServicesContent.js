@@ -14,7 +14,7 @@ const ServicesContent = () => {
                                     <div className="services-item-content">
                                         <h3 className="services-item-t-head">{ item.title }</h3>
 
-                                        <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">read more</span>
+                                        <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">Lees Meer</span>
                                     </div>
 
                                     <div className="img object-fit">

@@ -1,9 +1,9 @@
 [
     {
         "id": "1",
-        "name": "Tom Henders",
+        "name": "Dave Bosmans",
         "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
+        "position": "CEO, Web Developer",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
         "facebook": "https://www.facebook.com/adveits/",
         "linkedIn": "https://www.linkedin.com/company/18135051/",
@@ -11,9 +11,9 @@
     },
     {
         "id": "2",
-        "name": "Tom Henders",
+        "name": "Iemand",
         "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
+        "position": "UX/UI Designer",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
         "facebook": "https://www.facebook.com/adveits/",
         "linkedIn": "https://www.linkedin.com/company/18135051/",
@@ -21,9 +21,19 @@
     },
     {
         "id": "3",
-        "name": "Tom Henders",
+        "name": "Abdusselam Albayrak",
         "imgSrc": "assets/img/placeholder/500x550.jpg",
-        "position": "CEO",
+        "position": "Web Developer",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
+        "facebook": "https://www.facebook.com/adveits/",
+        "linkedIn": "https://www.linkedin.com/company/18135051/",
+        "instagram": "https://www.instagram.com/adveits/"
+    } ,
+    {
+        "id": "4",
+        "name": "Iemand",
+        "imgSrc": "assets/img/placeholder/500x550.jpg",
+        "position": "Wordpress Developer",
         "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.",
         "facebook": "https://www.facebook.com/adveits/",
         "linkedIn": "https://www.linkedin.com/company/18135051/",

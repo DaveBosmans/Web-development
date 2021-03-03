@@ -4,13 +4,13 @@ const AboutsUs = () => {
     return (
         <div className="wrapper">
             <div className="title">
-                <h6 className="text-primary text-uppercase">About Us</h6>
+                <h6 className="text-primary text-uppercase">Over Ons</h6>
             </div>
 
             <div className="row gutter-width-md with-pb-md">
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div className="description-2">
-                        <h2>Keep Your Business Safe & Ensure High Availability</h2>
+                        <h2>Zorg dat uw bedrijf online goed zichtbaar is en zorg voor een goede online presentatie</h2>
                     </div>
 
                     <div className="signature spacer m-top-lg">
@@ -18,28 +18,25 @@ const AboutsUs = () => {
                             <img src="assets/img/demo/23_img.png" alt="Signature" />
                         </div>
                         <div className="signature-content">
-                            <h5 className="signature-name">Tom Henders</h5>
-                            <p className="signature-position">CEO of Company</p>
+                            <h5 className="signature-name">Dave Bosmans</h5>
+                            <p className="signature-position">CEO van DB Webstudio</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div className="description-2">
-                        <p>A business consulting agency is involved in the planning, implementation, and
-                            education of businesses. We work directly with business owners on developing a
-                            business plan, identifying marketing needs and developing the necessary skills for
-                            business ownership.</p>
+                        <p>DB Webstudio staat bekend om zijn creatieve designs en technische skills, deze combinatie zorgt ervoor dat we levendige en gebruiksvriendelijke technische websites ontwikkelen.
+                        </p>
                     </div>
 
                     <div className="description-2 spacer p-top-lg">
-                        <p>Marketing consultant is an advisor who works with companies to create and implement
-                            marketing strategies.</p>
+                        <p>lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet</p>
                     </div>
                 </div>
             </div>
 
-            <div className="icon-list">
+            {/* <div className="icon-list">
                 <div className="icon-list-items">
                     <div className="icon-list-item">
                         <p><span className="d-flex">
@@ -61,7 +58,7 @@ const AboutsUs = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

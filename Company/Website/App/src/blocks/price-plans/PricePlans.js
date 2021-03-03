@@ -8,15 +8,15 @@ const PricePlans = () => {
     return (
         <div className="wrapper">
             <div className="title">
-                <h6 className="text-primary text-uppercase">Price Plans</h6>
+                <h6 className="text-primary text-uppercase">Prijsplannen</h6>
             </div>
 
             <div className="title-opacity">
-                <div className="title-opacity-text">Plans</div>
+                <div className="title-opacity-text">Plannen</div>
             </div>
 
             <div className="description">
-                <h2>Choose the Best Plan for You</h2>
+                <h2>Kies het beste plan voor jou</h2>
             </div>
 
             <div className="row gutter-width-md with-pb-md spacer p-top-lg">
@@ -34,25 +34,27 @@ const PricePlans = () => {
                                 </div>
 
                                 <div className="price-table-price">
-                                    <p><span className="currency">{ plan.currency }</span>
-                                        <span className="price">{ plan.price }</span>
+                                    <p>
                                         <span className="period">{ plan.period }</span>
+                                        <span className="currency">{ plan.currency }</span>
+                                        <span className="price">{ plan.price }</span>
+                                        
                                     </p>
                                 </div>
 
                                 <ul className="price-table-list-group list-group">
                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                        Branding
+                                        Algemeen Design
                                         <i className="text-primary fas fa-check i-small" style={ { display: plan.branding ? "block" : "none" } }></i>
                                     </li>
 
                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                        20 hours of consultation
+                                        Gedetailleerd Design
                                         <i className="text-primary fas fa-check i-small" style={ { display: plan.consultation ? "block" : "none" } }></i>
                                     </li>
 
                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                        15 hours if theory
+                                        1 uur Workshop Wordpress
                                         <i className="text-primary fas fa-check i-small" style={ { display: plan.theory ? "block" : "none" } }></i>
                                     </li>
 

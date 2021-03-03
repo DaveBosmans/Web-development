@@ -9,9 +9,9 @@ const HowWorks = () => {
                 <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                     <div className="process pl-0">
                         <div className="process-content">
-                            <h6 className="process-small-t-head">How it Works?</h6>
+                            <h6 className="process-small-t-head">Hoe werken we?</h6>
                             <div className="process-description">
-                                <h2>We Guarantee a Stable Work Process</h2>
+                                <h2>Ons werkproces</h2>
                             </div>
                         </div>
                     </div>
