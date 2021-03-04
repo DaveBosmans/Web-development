@@ -3,19 +3,23 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Student {
+public class Student extends User {
     private String nationality;
     private ClassRoom classroom;
     private ArrayList<String> grades;
     private String profile;
-    private ArrayList<Date> datesAbsent;
+    private ArrayList<Date> dateAbsent;
 
-    public Student(String nationality, ClassRoom classroom, ArrayList<String> grades, String profile, ArrayList<Date> datesAbsent) {
+
+    public Student(String name, String nationality, Date dateOfBirth) {
+        super(name, dateOfBirth);
         this.nationality = nationality;
-        this.classroom = classroom;
-        this.grades = grades;
+    }
+
+    public Student(String name, String nationality, Date dateOfBirth, String profile) {
+        super(name, dateOfBirth);
+        this.nationality = nationality;
         this.profile = profile;
-        this.datesAbsent = datesAbsent;
     }
 
     public String getNationality() {
@@ -50,21 +54,11 @@ public class Student {
         this.profile = profile;
     }
 
-    public ArrayList<Date> getDatesAbsent() {
-        return datesAbsent;
+    public ArrayList<Date> getDateAbsent() {
+        return dateAbsent;
     }
 
-    public void setDatesAbsent(ArrayList<Date> datesAbsent) {
-        this.datesAbsent = datesAbsent;
+    public void setDateAbsent(ArrayList<Date> dateAbsent) {
+        this.dateAbsent = dateAbsent;
     }
-
-
-    public void Student(String name, String nationality, Date dateOfBirth){
-
-    }
-
-    public void Student(String name, String nationality, Date dateOfBirth, String profile){
-
-    }
-
 }

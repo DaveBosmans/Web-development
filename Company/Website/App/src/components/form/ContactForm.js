@@ -141,7 +141,7 @@ class ContactForm extends Component {
                 </div>
 
                 <div className="form-group form-group-xs mb-0">
-                    <button type="submit" className="btn btn-outline-secondary">Send Message</button>
+                    <button type="submit" className="btn btn-outline-secondary">Verstuur Bericht</button>
                 </div>
             </form>
         );

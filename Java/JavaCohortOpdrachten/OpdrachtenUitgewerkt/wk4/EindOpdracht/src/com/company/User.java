@@ -1,14 +1,12 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.Date;
 
-public class User extends Student {
+public abstract class User {
     private String name;
     private Date dateOfBirth;
 
-    public User(String nationality, ClassRoom classroom, ArrayList<String> grades, String profile, ArrayList<Date> datesAbsent, String name, Date dateOfBirth) {
-        super(nationality, classroom, grades, profile, datesAbsent);
+    public User(String name, Date dateOfBirth) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
     }
@@ -27,9 +25,5 @@ public class User extends Student {
 
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
-    }
-
-    public void User(String name, Date dateOfBirth){
-
     }
 }
