@@ -73,7 +73,7 @@ const Home = () => {
                         <div id="clients" className="block bg-white spacer m-top-xl">
                             <Clients />
                         </div>
-
+ 
                         <div id="video" className="block">
                             <VideoModal />
                         </div>

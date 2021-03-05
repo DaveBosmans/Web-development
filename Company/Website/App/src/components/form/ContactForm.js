@@ -30,7 +30,7 @@ class ContactForm extends Component {
 
         this.setState( { isSubmitting: true } );
 
-        axios.post( 'https://store.adveits.com/API/form.php', this.state.values, {
+        axios.post( 'https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send', this.state.values, {
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Content-Type': 'application/json; charset=UTF-8'
