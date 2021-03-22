@@ -1,18 +1,38 @@
 package com.webshop.webshop.models;
 
-public class productModel {
+import javax.persistence.*;
+
+@Entity
+@Table(name="products")
+public class ProductModel {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(nullable = false, unique = true)
     private String productName;
+
+    @Column(nullable = false)
     private double price;
+
+    @Column(nullable = false)
     private String productDescription;
+
+    @Column(nullable = false)
     private int inStock;
 
-    public productModel(int id, String productName, double price, String productDescription, int inStock) {
+    public ProductModel(int id, String productName, double price, String productDescription, int inStock) {
+
         this.id = id;
+
         this.productName = productName;
         this.price = price;
         this.productDescription = productDescription;
         this.inStock = inStock;
+    }
+
+    public ProductModel(){
+
     }
 
     public int getId() {
