@@ -1,0 +1,24 @@
+package com.webshop.webshop.service;
+
+import com.webshop.webshop.interfaces.ProductRepository;
+import com.webshop.webshop.models.ProductModel;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class ProductService {
+
+    @Autowired
+    private ProductRepository repo;
+
+    public List<ProductModel> productModelList() {
+        return repo.findAll();
+    }
+
+    public Optional<ProductModel> singleProduct(Integer id) {
+        return repo.findById(id);
+    }
+}

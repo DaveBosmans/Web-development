@@ -7,21 +7,21 @@ import javax.persistence.*;
 public class ProductModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(nullable = false, unique = true)
     private String productName;
 
     @Column(nullable = false)
-    private double price;
+    private Double price;
 
     @Column(nullable = false)
     private String productDescription;
 
     @Column(nullable = false)
-    private int inStock;
+    private Integer inStock;
 
-    public ProductModel(int id, String productName, double price, String productDescription, int inStock) {
+    public ProductModel(Integer id, String productName, Double price, String productDescription, Integer inStock) {
 
         this.id = id;
 
@@ -35,11 +35,11 @@ public class ProductModel {
 
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -55,7 +55,7 @@ public class ProductModel {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -71,7 +71,7 @@ public class ProductModel {
         return inStock;
     }
 
-    public void setInStock(int inStock) {
+    public void setInStock(Integer inStock) {
         this.inStock = inStock;
     }
 }
