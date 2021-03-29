@@ -5,10 +5,7 @@ import com.webshop.webshop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -27,23 +24,55 @@ public class ProductController {
     }
 
     @GetMapping("/products")
-    public ResponseEntity entity(HttpServletRequest request){
+    public ResponseEntity requestProducts (HttpServletRequest request){
         try {
             List<ProductModel>products = service.productModelList();
             return new ResponseEntity(products, HttpStatus.OK);
 
         } catch (Exception e) {
-            return new ResponseEntity("This productlist doesnt exist", HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity("This productlist doesn't exist", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     @GetMapping("products/{id}")
-    public ResponseEntity entity (@PathVariable Integer id, HttpServletRequest request){
+    public ResponseEntity requestSingleProduct (@PathVariable Integer id, HttpServletRequest request){
         try {
             Optional<ProductModel> product = service.singleProduct(id);
             return new ResponseEntity<>(product, HttpStatus.OK);
         } catch (Exception e){
-            return new ResponseEntity("This product doesnt exist", HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity("This product doesn't exist", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @PutMapping("/products")
+    public ResponseEntity addNewProduct(@RequestBody ProductModel newProductData){
+        try{
+            ProductModel newModel = service.addProduct(newProductData);
+            return new ResponseEntity<>(newModel, HttpStatus.CREATED);
+        } catch (Exception e) {
+            return new ResponseEntity("This request isn't valid", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @PutMapping("/products/{id}")
+    public ResponseEntity updateProduct(@PathVariable Integer id, @RequestBody ProductModel productData){
+        try {
+            service.addProduct(productData);
+            return new ResponseEntity<>(productData, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity("SERVER ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @DeleteMapping("/products/{id}")
+    public ResponseEntity deleteProduct(@PathVariable Integer id){
+      try {
+            service.deleteProduct(id);
+            return new ResponseEntity<>(HttpStatus.OK);
+      } catch (Exception e) {
+          return new ResponseEntity("SERVER ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
+      }
+    }
+
+
 }

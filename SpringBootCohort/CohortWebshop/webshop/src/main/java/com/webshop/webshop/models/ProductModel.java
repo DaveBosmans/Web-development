@@ -21,15 +21,6 @@ public class ProductModel {
     @Column(nullable = false)
     private Integer inStock;
 
-    public ProductModel(Integer id, String productName, Double price, String productDescription, Integer inStock) {
-
-        this.id = id;
-
-        this.productName = productName;
-        this.price = price;
-        this.productDescription = productDescription;
-        this.inStock = inStock;
-    }
 
     public ProductModel(){
 
