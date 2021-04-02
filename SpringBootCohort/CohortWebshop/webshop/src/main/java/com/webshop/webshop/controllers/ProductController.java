@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Optional;
@@ -72,6 +73,20 @@ public class ProductController {
       } catch (Exception e) {
           return new ResponseEntity("SERVER ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
       }
+    }
+
+    @PutMapping("/products/{id}/order")
+    public ResponseEntity orderReceived(@RequestBody Integer orderedAmount, @PathVariable Integer id) {
+        try{
+            Optional<ProductModel> singleProduct = service.singleProduct(id);
+            Integer currentStockValue = singleProduct.get().getInStock();
+            Integer newStockValue = currentStockValue - orderedAmount;
+            singleProduct.get().setInStock(newStockValue);
+            service.addProduct(singleProduct.get());
+            return new ResponseEntity<>(singleProduct.get(), HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity("SERVER ERROR", HttpStatus.INTERNAL_SERVER_ERROR);
+        }
     }
 
 
