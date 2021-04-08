@@ -17,7 +17,7 @@ public class ApiController implements ApiService{
     }
 
     @Override
-    @GetMapping("/3/discover/movie?api_key=54556045cb2a05c4fcbc1a1494d5294a")
+    @GetMapping("/3/discover")
     public List<Object> getMovies() {
         return proxy.getMovies();
     }
