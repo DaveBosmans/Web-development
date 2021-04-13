@@ -22,6 +22,21 @@ namespace ConsoleApp
             Console.WriteLine("Your age is: {0}", age);
             Console.WriteLine("Your birth month is: {0}", month);
 
+            if(month == "march")
+            {
+                Console.WriteLine("You are an Aries.");
+            }
+
+            else if (month == "april")
+            {
+                Console.WriteLine("You are a Taurus.");
+            }
+
+            else if (month == "may")
+            {
+                Console.WriteLine("You are a Gemini.");
+            }
+
         }
     }
 }
