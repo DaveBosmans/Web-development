@@ -1,0 +1,13 @@
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\ConsoleApp\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
