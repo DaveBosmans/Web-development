@@ -1,0 +1,12 @@
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.exe
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.deps.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.runtimeconfig.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.runtimeconfig.dev.json
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.dll
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\bin\Debug\netcoreapp3.1\PassCode.pdb
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.AssemblyInfoInputs.cache
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.AssemblyInfo.cs
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.csproj.CoreCompileInputs.cache
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.dll
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.pdb
+C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\PassCode\PassCode\PassCode\obj\Debug\netcoreapp3.1\PassCode.genruntimeconfig.cache
