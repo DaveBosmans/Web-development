@@ -1,0 +1,13 @@
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.exe
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.deps.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.runtimeconfig.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.runtimeconfig.dev.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\bin\Debug\netcoreapp3.1\Switch Statement.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.csprojAssemblyReference.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.AssemblyInfoInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.AssemblyInfo.cs
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.csproj.CoreCompileInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\Switch Statement\Switch Statement\obj\Debug\netcoreapp3.1\Switch Statement.genruntimeconfig.cache
