@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\ConsoleApp\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\Functions\\Functions\\Functions.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\ConsoleApp\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\Functions\\Functions\\Functions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\ConsoleApp\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\ConsoleApp\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\Functions\\Functions\\Functions.csproj",
+        "projectName": "Functions",
+        "projectPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\Functions\\Functions\\Functions.csproj",
         "packagesPath": "C:\\Users\\daveb\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\ConsoleApp\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1basics\\Functions\\Functions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daveb\\AppData\\Roaming\\NuGet\\NuGet.Config",
