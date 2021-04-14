@@ -11,3 +11,16 @@ C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\ob
 C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
 C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb
 C:\Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.genruntimeconfig.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.exe
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.deps.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.dev.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.csprojAssemblyReference.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfoInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfo.cs
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.csproj.CoreCompileInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.genruntimeconfig.cache

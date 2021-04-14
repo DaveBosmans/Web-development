@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Dave\\.nuget\\packages\\": {}
+    "C:\\Users\\daveb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\Arrays.csproj",
       "projectName": "Arrays",
-      "projectPath": "C:\\Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\Arrays.csproj",
-      "packagesPath": "C:\\Users\\Dave\\.nuget\\packages\\",
-      "outputPath": "C:\\Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\obj\\",
+      "projectPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\Arrays.csproj",
+      "packagesPath": "C:\\Users\\daveb\\.nuget\\packages\\",
+      "outputPath": "D:\\GITHUB Webdevelopment\\Web-development\\CSharpDotNet\\csharpLinkedin\\1\\Arrays\\Arrays\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dave\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daveb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
