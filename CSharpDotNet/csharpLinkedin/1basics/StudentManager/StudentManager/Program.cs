@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace StudentManager
 {
@@ -6,23 +7,31 @@ namespace StudentManager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How many students in your class?");
-            var studentCount = int.Parse(Console.ReadLine());
-            var studentNames = new string[studentCount];
-            var studentGrades = new int[studentCount];
 
+            var studentNames = new List<string>();
 
-            for (int i = 0; i < studentCount; i++)
+            var studentGrades = new List<int>();
+
+            var adding = true;
+
+            while (adding)
             {
                 Console.Write("Student Name: ");
-                studentNames[i] = Console.ReadLine();
+                studentNames.Add(Console.ReadLine());
 
                 Console.Write("Student 'Grade: ");
-                studentGrades[i] = int.Parse(Console.ReadLine());
+                studentGrades.Add(int.Parse(Console.ReadLine()));
 
+                Console.WriteLine("Add another? y/n");
+
+                if(Console.ReadLine() != "y")
+                {
+                    adding = false;
+                }
             }
 
-            for (int i = 0; i < studentCount; i++)
+
+            for (int i = 0; i < studentNames.Count; i++)
             {
                 Console.WriteLine("Name: {0}, Grade: {1}", studentNames[i], studentGrades[i]);
             }
