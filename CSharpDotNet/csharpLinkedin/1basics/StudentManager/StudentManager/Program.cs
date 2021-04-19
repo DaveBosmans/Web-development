@@ -7,20 +7,32 @@ namespace StudentManager
     {
         static void Main(string[] args)
         {
-
-            var studentNames = new List<string>();
-
-            var studentGrades = new List<int>();
-
+            var students = new List<Student>();
+            
             var adding = true;
 
             while (adding)
             {
+                var newStudent = new Student();
                 Console.Write("Student Name: ");
-                studentNames.Add(Console.ReadLine());
+                newStudent.Name = (Console.ReadLine());
 
-                Console.Write("Student 'Grade: ");
-                studentGrades.Add(int.Parse(Console.ReadLine()));
+                Console.Write("Student Grade: ");
+                newStudent.Grade = (int.Parse(Console.ReadLine()));
+
+                Console.Write("Student Birthday: ");
+                newStudent.Birthday = Console.ReadLine();
+
+                Console.Write("Student Adress: ");
+                newStudent.Address = Console.ReadLine();
+
+                Console.Write("Student Phonenumber: ");
+                newStudent.Phone = (int.Parse(Console.ReadLine()));
+
+
+                students.Add(newStudent);
+                Student.Count++;
+                Console.WriteLine("Student Count: {0}", Student.Count);
 
                 Console.WriteLine("Add another? y/n");
 
@@ -31,12 +43,35 @@ namespace StudentManager
             }
 
 
-            for (int i = 0; i < studentNames.Count; i++)
+            foreach (var student in students)
             {
-                Console.WriteLine("Name: {0}, Grade: {1}", studentNames[i], studentGrades[i]);
+                Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
             }
 
 
         }
+    }
+}
+
+class Student
+{
+
+    static public int Count;
+
+    public string Name;
+    public int Grade;
+    public string Birthday;
+    public string Address;
+    private int phone;
+
+
+    public int Phone
+    {
+        set { phone = value; }
+    }
+
+    public void SetPhone(int number)
+    {
+        phone = number;
     }
 }
