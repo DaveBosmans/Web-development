@@ -1,0 +1,13 @@
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.exe
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.deps.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.runtimeconfig.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.runtimeconfig.dev.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\bin\Debug\netcoreapp3.1\SurvedOOP.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.AssemblyInfoInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.AssemblyInfo.cs
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.csproj.CoreCompileInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.genruntimeconfig.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\SurveyOOP\SurvedOOP\SurvedOOP\obj\Debug\netcoreapp3.1\SurvedOOP.csprojAssemblyReference.cache
