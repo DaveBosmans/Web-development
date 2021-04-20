@@ -7,6 +7,7 @@ namespace StudentManager
     {
         static void Main(string[] args)
         {
+ 
             var students = new List<Student>();
             
             var adding = true;
@@ -14,21 +15,15 @@ namespace StudentManager
             while (adding)
             {
                 var newStudent = new Student();
-                Console.Write("Student Name: ");
-                newStudent.Name = (Console.ReadLine());
+                newStudent.Name = Util.Console.Ask("Student Name: ");
+                
+                newStudent.Grade = (int.Parse(Util.Console.Ask("Student Grade: ")));
 
-                Console.Write("Student Grade: ");
-                newStudent.Grade = (int.Parse(Console.ReadLine()));
+                newStudent.Birthday = Util.Console.Ask("Student Birthday: ");
 
-                Console.Write("Student Birthday: ");
-                newStudent.Birthday = Console.ReadLine();
+                newStudent.Address = Util.Console.Ask("Student Adress: ");
 
-                Console.Write("Student Adress: ");
-                newStudent.Address = Console.ReadLine();
-
-                Console.Write("Student Phonenumber: ");
-                newStudent.Phone = (int.Parse(Console.ReadLine()));
-
+                newStudent.Phone = (int.Parse(Util.Console.Ask("Student Phonenumber: ")));
 
                 students.Add(newStudent);
                 Student.Count++;
@@ -50,28 +45,52 @@ namespace StudentManager
 
 
         }
+
+        static void Import()
+        {
+            var importedStudent = new Student("Dave", 10, "birthday", "address", 123456);
+            Console.WriteLine(importedStudent.Name);
+        }
     }
 }
 
-class Student
+
+class Member
 {
-
-    static public int Count;
-
     public string Name;
-    public int Grade;
-    public string Birthday;
     public string Address;
-    private int phone;
-
+    protected int phone;
 
     public int Phone
     {
         set { phone = value; }
     }
+}
+class Student : Member
+{
 
-    public void SetPhone(int number)
+    static public int Count;
+    public int Grade;
+    public string Birthday;
+
+    public Student()
     {
-        phone = number;
+
     }
+    public Student(string name, int grade, string birthday, string address, int phone)
+    {
+        Name = name;
+        Grade = grade;
+        Birthday = birthday;
+        Address = address;
+        Phone = phone;
+    }
+}
+
+class Teacher : Member
+{
+    public string Subject;
+
+
+
 }
