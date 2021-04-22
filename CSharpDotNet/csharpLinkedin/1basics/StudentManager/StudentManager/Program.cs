@@ -7,41 +7,55 @@ namespace StudentManager
     {
         static void Main(string[] args)
         {
- 
+
             var students = new List<Student>();
-            
+
             var adding = true;
 
             while (adding)
             {
-                var newStudent = new Student();
-                newStudent.Name = Util.Console.Ask("Student Name: ");
-                
-                newStudent.Grade = (int.Parse(Util.Console.Ask("Student Grade: ")));
-
-                newStudent.Birthday = Util.Console.Ask("Student Birthday: ");
-
-                newStudent.Address = Util.Console.Ask("Student Adress: ");
-
-                newStudent.Phone = (int.Parse(Util.Console.Ask("Student Phonenumber: ")));
-
-                students.Add(newStudent);
-                Student.Count++;
-                Console.WriteLine("Student Count: {0}", Student.Count);
-
-                Console.WriteLine("Add another? y/n");
-
-                if(Console.ReadLine() != "y")
+                try
                 {
-                    adding = false;
+                    var newStudent = new Student();
+                    newStudent.Name = Util.Console.Ask("Student Name: ");
+
+                    newStudent.Grade = Util.Console.AskInt("Student Grade: ");
+
+                    newStudent.Birthday = Util.Console.Ask("Student Birthday: ");
+
+                    newStudent.Address = Util.Console.Ask("Student Adress: ");
+
+                    newStudent.Phone = Util.Console.AskInt("Student Phonenumber: ");
+
+                    students.Add(newStudent);
+                    Student.Count++;
+                    Console.WriteLine("Student Count: {0}", Student.Count);
+
+                    Console.WriteLine("Add another? y/n");
+
+                    if (Console.ReadLine() != "y")
+                        adding = false;
+                    
+                }
+                catch (FormatException msg)
+                {
+                    Console.WriteLine(msg.Message);
+                }
+                catch (Exception)
+                {
+
+                    Console.WriteLine("Error adding student, Please try again");
+                }
+               
+
+                foreach (var student in students)
+                {
+                    Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
                 }
             }
-
-
-            foreach (var student in students)
-            {
-                Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
-            }
+        
+                
+                
 
 
         }
