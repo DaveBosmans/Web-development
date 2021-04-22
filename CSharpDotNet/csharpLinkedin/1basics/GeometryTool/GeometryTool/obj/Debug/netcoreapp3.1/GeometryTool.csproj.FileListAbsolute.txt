@@ -1,0 +1,12 @@
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.exe
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.deps.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.runtimeconfig.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.runtimeconfig.dev.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\bin\Debug\netcoreapp3.1\GeometryTool.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.AssemblyInfoInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.AssemblyInfo.cs
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.csproj.CoreCompileInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\GeometryTool\GeometryTool\obj\Debug\netcoreapp3.1\GeometryTool.genruntimeconfig.cache
