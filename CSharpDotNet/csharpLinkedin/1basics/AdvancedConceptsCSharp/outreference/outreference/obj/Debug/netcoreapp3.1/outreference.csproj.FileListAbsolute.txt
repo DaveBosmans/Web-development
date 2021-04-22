@@ -1,0 +1,13 @@
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.exe
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.deps.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.runtimeconfig.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.runtimeconfig.dev.json
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\bin\Debug\netcoreapp3.1\outreference.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.csprojAssemblyReference.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.AssemblyInfoInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.AssemblyInfo.cs
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.csproj.CoreCompileInputs.cache
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.dll
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.pdb
+D:\GITHUB Webdevelopment\Web-development\CSharpDotNet\csharpLinkedin\1basics\AdvancedConceptsCSharp\outreference\outreference\obj\Debug\netcoreapp3.1\outreference.genruntimeconfig.cache
